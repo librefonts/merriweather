@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ttFont ttLibVersion="2.4">
 
-  <FFTM raw="True">
-    <hexdata>
-      00000001 00000000 c6d42e99 00000000
-      ca58f2bc 00000000 ca58c019
-    </hexdata>
+  <FFTM>
+    <!-- FontForge's timestamp, font source creation and modification dates -->
+    <version value="1"/>
+    <FFTimeStamp value="Mon Sep 14 17:32:09 2009"/>
+    <sourceCreated value="Fri Jul 29 23:29:00 2011"/>
+    <sourceModified value="Fri Jul 29 19:52:57 2011"/>
   </FFTM>
 
 </ttFont>

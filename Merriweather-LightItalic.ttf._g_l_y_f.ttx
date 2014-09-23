@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ttFont ttLibVersion="2.4">
 
   <glyf>
@@ -32,7 +32,7 @@
         <pt x="812" y="705" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           17 11 2 0 2 38
           CALL[ ]
         </assembly></instructions>
@@ -65,7 +65,7 @@
         <pt x="367" y="547" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 44 values pushed */
+          PUSH[ ]  /* 44 values pushed */
           17 1 4 0 10 7 2 1 2 2 64 5 1 4 0 2 1 4 2 88 0 0 0 12 65
           3 1 1 1 13 1 66 16 16 16 18 16 18 19 19 19 16 6 18
           CALL[ ]
@@ -110,22 +110,22 @@
         <pt x="439" y="597" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 11 values pushed */
+          PUSH[ ]  /* 11 values pushed */
           15 14 2 6 8 22 1 7 6 2 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 48 values pushed */
+          PUSH[ ]  /* 48 values pushed */
           0 2 0 4 0 2 94 0 4 0 5 11 4 5 87 12 1 11 0 8 6 11 8 87 10
           3 2 0 0 1 79 0 1 1 12 65 0 6 6 7 79 9 1 7 7 13 7 66
           ELSE[ ]
-          NPUSHB[ ]  /* 49 values pushed */
+          PUSH[ ]  /* 49 values pushed */
           0 2 0 4 0 2 4 102 0 4 0 5 11 4 5 87 12 1 11 0 8 6 11 8 87
           10 3 2 0 0 1 79 0 1 1 12 65 0 6 6 7 79 9 1 7 7 13 7 66
           EIF[ ]
-          NPUSHB[ ]  /* 21 values pushed */
+          PUSH[ ]  /* 21 values pushed */
           28 28 28 31 28 31 30 29 25 24 19 19 17 17 17 17 17 17 16 13 23
           CALL[ ]
         </assembly></instructions>
@@ -225,7 +225,7 @@
         <pt x="1070" y="46" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 81 values pushed */
+          PUSH[ ]  /* 81 values pushed */
           47 1 8 4 50 49 19 16 4 1 2 41 31 2 6 1 3 64 0 6 1 7 1 6 7
           102 9 1 7 0 1 7 0 100 0 0 0 103 10 1 8 0 2 1 8 2 88 0 4 4
           12 65 5 3 2 1 1 13 1 66 46 46 0 0 46 48 46 48 0 45 0 45 25 19 19
@@ -290,7 +290,7 @@
         <pt x="367" y="547" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 56 values pushed */
+          PUSH[ ]  /* 56 values pushed */
           46 15 0 3 6 4 24 21 2 1 2 2 64 0 0 0 5 4 0 5 89 7 1 6 0
           2 1 6 2 88 0 4 4 20 65 3 1 1 1 13 1 66 45 45 45 47 45 47 38 36
           19 19 26 38 8 20
@@ -360,7 +360,7 @@
         <pt x="412" y="84" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 76 values pushed */
+          PUSH[ ]  /* 76 values pushed */
           6 5 2 3 4 17 1 6 3 47 1 5 6 3 64 8 1 3 0 6 5 3 6 90 0
           4 4 1 81 2 1 1 1 12 65 9 1 5 5 0 81 7 1 0 0 13 0 66 40 39
           27 25 2 0 46 43 39 48 40 48 35 33 25 38 27 37 11 10 9 7 0 24 2 24 10
@@ -418,7 +418,7 @@
         <pt x="777" y="-16" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 65 values pushed */
+          PUSH[ ]  /* 65 values pushed */
           16 1 3 1 19 1 2 3 2 64 0 2 3 5 3 2 5 102 0 5 4 3 5 4 100
           0 3 3 1 81 0 1 1 20 65 0 4 4 0 81 6 1 0 0 21 0 66 1 0 41
           40 32 30 22 21 18 17 14 12 0 44 1 44 7 14
@@ -500,7 +500,7 @@
         <pt x="305" y="-434" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 75 values pushed */
+          PUSH[ ]  /* 75 values pushed */
           21 1 4 2 24 1 3 4 50 1 1 5 0 1 0 1 59 1 7 0 5 64 0 3 4
           6 4 3 6 102 0 6 5 4 6 5 100 0 0 0 7 0 7 85 0 4 4 2 81 0
           2 2 20 65 0 5 5 1 81 0 1 1 21 1 66 42 24 40 19 21 24 21 17 8 22
@@ -568,7 +568,7 @@
         <pt x="354" y="105" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 46 values pushed */
+          PUSH[ ]  /* 46 values pushed */
           26 25 2 3 4 1 64 0 4 4 0 81 5 1 0 0 12 65 0 3 3 1 81 2 1
           1 1 21 1 66 2 0 41 39 31 29 22 17 16 10 0 27 2 27 6 14
           CALL[ ]
@@ -648,7 +648,7 @@
         <pt x="354" y="107" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 64 values pushed */
+          PUSH[ ]  /* 64 values pushed */
           30 29 2 4 6 1 64 7 1 4 8 1 3 5 4 3 87 0 6 6 0 81 9 1 0
           0 12 65 0 5 5 1 81 2 1 1 1 21 1 66 2 0 48 47 46 45 43 41 35 33
           28 27 26 25 22 17 16 10 0 31 2 31 10 14
@@ -671,7 +671,7 @@
         <pt x="115" y="96" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           7 6 4 1 2 38
           CALL[ ]
         </assembly></instructions>
@@ -701,22 +701,22 @@
         <pt x="38" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 15 values pushed */
+          PUSH[ ]  /* 15 values pushed */
           3 1 2 0 2 1 1 2 17 16 2 5 4 3 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 36 values pushed */
+          PUSH[ ]  /* 36 values pushed */
           0 1 2 3 2 1 94 0 3 0 4 5 3 4 87 0 2 2 0 79 0 0 0 12 65
           0 5 5 6 79 0 6 6 13 6 66
           ELSE[ ]
-          NPUSHB[ ]  /* 37 values pushed */
+          PUSH[ ]  /* 37 values pushed */
           0 1 2 3 2 1 3 102 0 3 0 4 5 3 4 87 0 2 2 0 79 0 0 0 12
           65 0 5 5 6 79 0 6 6 13 6 66
           EIF[ ]
-          NPUSHB[ ]  /* 9 values pushed */
+          PUSH[ ]  /* 9 values pushed */
           19 17 17 17 17 17 20 7 21
           CALL[ ]
         </assembly></instructions>
@@ -796,7 +796,7 @@
         <pt x="30" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 35 values pushed */
+          PUSH[ ]  /* 35 values pushed */
           26 25 9 8 7 3 2 7 2 0 1 64 19 18 2 2 61 1 1 0 0 12 65 0 2
           2 13 2 66 29 28 21 20 3 16
           CALL[ ]
@@ -848,22 +848,22 @@
         <pt x="1013" y="-245" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 23 values pushed */
+          PUSH[ ]  /* 23 values pushed */
           16 1 4 2 15 1 3 4 30 29 2 7 6 40 1 9 1 0 1 0 9 5 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 44 values pushed */
+          PUSH[ ]  /* 44 values pushed */
           0 3 4 5 4 3 94 0 5 0 6 7 5 6 87 0 9 0 0 9 0 85 0 4 4
           2 79 0 2 2 12 65 0 7 7 1 79 8 1 1 1 13 1 66
           ELSE[ ]
-          NPUSHB[ ]  /* 45 values pushed */
+          PUSH[ ]  /* 45 values pushed */
           0 3 4 5 4 3 5 102 0 5 0 6 7 5 6 87 0 9 0 0 9 0 85 0 4
           4 2 79 0 2 2 12 65 0 7 7 1 79 8 1 1 1 13 1 66
           EIF[ ]
-          NPUSHB[ ]  /* 13 values pushed */
+          PUSH[ ]  /* 13 values pushed */
           39 37 19 17 17 17 17 17 21 24 33 10 23
           CALL[ ]
         </assembly></instructions>
@@ -925,7 +925,7 @@
         <pt x="354" y="107" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 64 values pushed */
+          PUSH[ ]  /* 64 values pushed */
           30 29 2 4 6 1 64 7 1 4 8 1 3 5 4 3 87 0 6 6 0 81 9 1 0
           0 12 65 0 5 5 1 81 2 1 1 1 21 1 66 2 0 48 47 46 45 43 41 35 33
           28 27 26 25 22 17 16 10 0 31 2 31 10 14
@@ -993,7 +993,7 @@
         <pt x="26" y="568" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 86 values pushed */
+          PUSH[ ]  /* 86 values pushed */
           16 1 5 3 1 64 0 4 5 2 5 4 2 102 6 1 2 7 1 1 0 2 1 87 8
           1 0 14 1 9 11 0 9 87 0 11 0 12 13 11 12 89 0 5 5 3 81 0 3 3
           20 65 0 10 10 13 81 0 13 13 21 13 66 55 54 50 49 45 44 43 42 37 36 33 32
@@ -1024,22 +1024,22 @@
         <pt x="39" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 14 values pushed */
+          PUSH[ ]  /* 14 values pushed */
           3 1 2 0 2 1 1 2 14 1 5 4 3 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 31 values pushed */
+          PUSH[ ]  /* 31 values pushed */
           0 1 2 3 2 1 94 0 3 0 4 5 3 4 87 0 2 2 0 79 0 0 0 12 65
           0 5 5 13 5 66
           ELSE[ ]
-          NPUSHB[ ]  /* 32 values pushed */
+          PUSH[ ]  /* 32 values pushed */
           0 1 2 3 2 1 3 102 0 3 0 4 5 3 4 87 0 2 2 0 79 0 0 0 12
           65 0 5 5 13 5 66
           EIF[ ]
-          PUSHB[ ]  /* 8 values pushed */
+          PUSH[ ]  /* 8 values pushed */
           19 17 17 17 17 20 6 20
           CALL[ ]
         </assembly></instructions>
@@ -1093,7 +1093,7 @@
         <pt x="754" y="-17" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 68 values pushed */
+          PUSH[ ]  /* 68 values pushed */
           14 1 3 1 17 1 2 3 2 64 0 2 3 6 3 2 6 102 0 6 0 5 4 6 5
           87 0 3 3 1 81 0 1 1 20 65 0 4 4 0 81 7 1 0 0 21 0 66 1 0
           38 37 36 35 31 29 20 18 16 15 12 10 0 43 1 43 8 14
@@ -1153,7 +1153,7 @@
         <pt x="41" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 43 values pushed */
+          PUSH[ ]  /* 43 values pushed */
           10 3 2 3 1 0 24 17 16 3 3 4 2 64 0 1 0 4 3 1 4 88 2 1 0
           0 12 65 5 1 3 3 13 3 66 19 19 21 19 19 20 6 20
           CALL[ ]
@@ -1208,7 +1208,7 @@
         <pt x="447" y="759" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 71 values pushed */
+          PUSH[ ]  /* 71 values pushed */
           14 7 6 3 1 2 32 25 24 3 7 8 2 64 12 1 11 0 8 7 11 8 87 4 1
           2 2 12 65 10 6 2 0 0 1 79 5 3 2 1 1 15 65 9 1 7 7 13 7 66
           36 36 36 39 36 39 38 37 35 34 19 19 17 19 19 19 19 17 18 13 23
@@ -1237,7 +1237,7 @@
         <pt x="54" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 23 values pushed */
+          PUSH[ ]  /* 23 values pushed */
           8 3 2 3 1 0 1 64 0 0 0 12 65 0 1 1 13 1 66 21 20 2 16
           CALL[ ]
         </assembly></instructions>
@@ -1322,7 +1322,7 @@
         <pt x="359" y="-245" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 42 values pushed */
+          PUSH[ ]  /* 42 values pushed */
           22 17 16 3 1 2 34 1 4 1 0 1 0 4 3 64 0 4 0 0 4 0 85 0 2
           2 12 65 3 1 1 1 13 1 66 38 21 21 25 33 5 19
           CALL[ ]
@@ -1361,7 +1361,7 @@
         <pt x="175" y="-25" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 16 values pushed */
+          PUSH[ ]  /* 16 values pushed */
           19 18 7 6 4 0 61 0 0 0 12 0 66 24 1 15
           CALL[ ]
         </assembly></instructions>
@@ -1409,7 +1409,7 @@
         <pt x="37" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 33 values pushed */
+          PUSH[ ]  /* 33 values pushed */
           29 27 20 15 10 9 8 3 2 9 2 0 1 64 1 1 0 0 12 65 3 1 2 2 13
           2 66 25 25 22 20 4 18
           CALL[ ]
@@ -1420,12 +1420,8 @@
       <component glyphName="K" x="0" y="0" flags="0x1204"/>
       <component glyphName="commaaccent" x="499" y="2" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHB[ ]  /* 1 value pushed */
-          2
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 2 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -1448,7 +1444,7 @@
         <pt x="38" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           11 10 3 2 4 1 0 1 64 0 0 0 12 65 0 1 1 2 80 0 2 2 13 2 66
           19 19 20 3 17
           CALL[ ]
@@ -1461,12 +1457,8 @@
       <component glyphName="L" x="0" y="0" flags="0x1204"/>
       <component glyphName="acute.cap" x="381" y="2" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHB[ ]  /* 1 value pushed */
-          2
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 2 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -1475,12 +1467,8 @@
       <component glyphName="L" x="0" y="0" flags="0x1204"/>
       <component glyphName="caronvertical" x="704" y="-57" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          -57
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 -57 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -1489,12 +1477,8 @@
       <component glyphName="L" x="0" y="0" flags="0x1204"/>
       <component glyphName="commaaccent" x="407" y="2" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHB[ ]  /* 1 value pushed */
-          2
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 2 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -1503,12 +1487,8 @@
       <component glyphName="L" x="0" y="0" flags="0x1204"/>
       <component glyphName="period" x="793" y="773" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          773
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 773 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -1539,7 +1519,7 @@
         <pt x="38" y="2" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 36 values pushed */
+          PUSH[ ]  /* 36 values pushed */
           19 18 14 13 12 7 6 4 3 2 10 1 0 1 64 0 0 0 12 65 0 1 1 2 80
           0 2 2 13 2 66 19 23 24 3 17
           CALL[ ]
@@ -1580,7 +1560,7 @@
         <pt x="-61" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 32 values pushed */
+          PUSH[ ]  /* 32 values pushed */
           26 24 19 13 12 7 3 2 8 2 0 1 64 1 1 0 0 12 65 3 1 2 2 13 2
           66 28 21 20 20 4 18
           CALL[ ]
@@ -1613,7 +1593,7 @@
         <pt x="24" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 31 values pushed */
+          PUSH[ ]  /* 31 values pushed */
           18 17 9 8 7 3 2 7 2 0 1 64 1 1 0 0 12 65 3 1 2 2 13 2 66
           21 19 21 20 4 18
           CALL[ ]
@@ -1682,7 +1662,7 @@
         <pt x="273" y="1009" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 36 values pushed */
+          PUSH[ ]  /* 36 values pushed */
           0 3 3 1 81 0 1 1 20 65 0 2 2 0 81 4 1 0 0 16 0 66 1 0 31
           30 22 20 11 10 0 18 1 18 5 14
           CALL[ ]
@@ -1743,24 +1723,24 @@
         <pt x="268" y="849" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 12 values pushed */
+          PUSH[ ]  /* 12 values pushed */
           12 1 5 3 29 26 25 3 7 6 2 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 59 values pushed */
+          PUSH[ ]  /* 59 values pushed */
           0 3 4 5 4 3 94 0 5 0 6 7 5 6 87 10 1 4 4 1 81 0 1 1 20
           65 10 1 4 4 2 79 0 2 2 12 65 0 7 7 8 79 0 8 8 13 65 0 9 9
           0 81 11 1 0 0 16 0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 60 values pushed */
+          PUSH[ ]  /* 60 values pushed */
           0 3 4 5 4 3 5 102 0 5 0 6 7 5 6 87 10 1 4 4 1 81 0 1 1
           20 65 10 1 4 4 2 79 0 2 2 12 65 0 7 7 8 79 0 8 8 13 65 0 9
           9 0 81 11 1 0 0 16 0 66
           EIF[ ]
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           1 0 43 42 34 32 28 27 24 23 22 21 20 19 18 17 16 15 14 13 11 9 0 30 1
           30 12 14
           CALL[ ]
@@ -1862,7 +1842,7 @@
         <pt x="-11" y="6" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           30 13 1 38
           CALL[ ]
         </assembly></instructions>
@@ -1923,7 +1903,7 @@
         <pt x="1065" y="1266" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 59 values pushed */
+          PUSH[ ]  /* 59 values pushed */
           46 36 35 24 16 13 5 2 8 3 2 1 64 15 14 2 1 62 4 3 2 0 61 0 2
           2 1 81 0 1 1 20 65 0 3 3 0 81 4 1 0 0 21 0 66 1 0 39 37 27
           25 12 11 0 23 1 23 5 14
@@ -1973,7 +1953,7 @@
         <pt x="536" y="1430" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 56 values pushed */
+          PUSH[ ]  /* 56 values pushed */
           20 17 16 3 4 5 10 1 3 1 2 64 0 4 2 1 1 3 4 1 89 0 5 5 0
           81 6 1 0 0 12 65 0 3 3 13 3 66 1 0 29 27 23 21 13 12 9 8 7 5
           0 19 1 18 7 14
@@ -2036,7 +2016,7 @@
         <pt x="274" y="1010" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 50 values pushed */
+          PUSH[ ]  /* 50 values pushed */
           0 1 2 4 4 1 0 2 5 1 1 0 3 64 0 0 0 1 0 1 85 0 5 5 3
           81 0 3 3 20 65 0 4 4 2 81 0 2 2 21 2 66 24 40 39 22 21 33 6 20
           CALL[ ]
@@ -2108,7 +2088,7 @@
         <pt x="529" y="1436" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 69 values pushed */
+          PUSH[ ]  /* 69 values pushed */
           40 39 2 6 7 9 1 3 6 33 1 1 3 3 64 0 6 4 1 3 1 6 3 89 0
           7 7 0 81 8 1 0 0 12 65 0 1 1 2 81 5 1 2 2 13 2 66 2 0 57
           55 46 42 36 35 32 29 28 26 19 17 16 14 0 41 2 41 9 14
@@ -2187,7 +2167,7 @@
         <pt x="50" y="65" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 62 values pushed */
+          PUSH[ ]  /* 62 values pushed */
           24 1 4 2 27 1 3 4 2 1 1 0 49 1 5 1 4 64 0 3 4 0 4 3 0
           102 0 0 1 4 0 1 100 0 4 4 2 81 0 2 2 20 65 0 1 1 5 81 0 5
           5 16 5 66 46 34 18 47 20 16 6 20
@@ -2276,7 +2256,7 @@
         <pt x="129" y="-436" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 83 values pushed */
+          PUSH[ ]  /* 83 values pushed */
           36 1 6 4 39 1 5 6 14 1 3 2 11 1 1 3 57 0 2 0 1 66 1 7 0
           6 64 0 5 6 2 6 5 2 102 0 2 3 6 2 3 100 0 3 1 6 3 1 100 0
           0 0 7 0 7 86 0 6 6 4 81 0 4 4 20 65 0 1 1 21 1 66 65 63 34
@@ -2310,7 +2290,7 @@
         <pt x="221" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 40 values pushed */
+          PUSH[ ]  /* 40 values pushed */
           12 1 5 1 1 64 3 1 1 0 5 0 1 5 102 4 1 0 0 2 79 0 2 2 12
           65 0 5 5 13 5 66 19 17 17 17 17 18 6 20
           CALL[ ]
@@ -2345,7 +2325,7 @@
         <pt x="221" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 55 values pushed */
+          PUSH[ ]  /* 55 values pushed */
           20 1 9 0 1 64 5 1 3 2 1 2 3 1 102 7 1 1 8 1 0 9 1 0 87
           6 1 2 2 4 79 0 4 4 12 65 0 9 9 13 9 66 23 22 17 17 17 17 17 17
           17 17 18 10 23
@@ -2403,52 +2383,52 @@
         <pt x="491" y="1102" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 19 values pushed */
+          PUSH[ ]  /* 19 values pushed */
           10 9 2 3 2 15 1 5 3 23 1 4 5 3 1 1 0 4 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           0 3 0 5 4 3 5 90 0 4 6 1 0 1 4 0 89 0 2 2 12 65 0 1 1
           13 1 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           13
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           0 4 6 1 0 1 4 0 89 0 2 2 12 65 0 5 5 3 81 0 3 3 15 65 0
           1 1 13 1 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           19
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           0 3 0 5 4 3 5 90 0 4 6 1 0 1 4 0 89 0 2 2 12 65 0 1 1
           13 1 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           0 4 6 1 0 1 4 0 89 0 2 2 12 65 0 5 5 3 81 0 3 3 15 65 0
           1 1 13 1 66
           ELSE[ ]
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           0 3 0 5 4 3 5 90 0 4 6 1 0 1 4 0 89 0 2 2 12 65 0 1 1
           13 1 66
           EIF[ ]
           EIF[ ]
           EIF[ ]
           EIF[ ]
-          NPUSHB[ ]  /* 18 values pushed */
+          PUSH[ ]  /* 18 values pushed */
           2 0 34 32 25 24 18 16 12 11 6 5 0 22 2 22 7 14
           CALL[ ]
         </assembly></instructions>
@@ -2491,7 +2471,7 @@
         <pt x="521" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 32 values pushed */
+          PUSH[ ]  /* 32 values pushed */
           23 22 6 5 4 1 0 1 64 2 1 0 0 12 65 0 1 1 3 82 0 3 3 16 3
           66 22 21 41 23 4 18
           CALL[ ]
@@ -2594,7 +2574,7 @@
         <pt x="617" y="-46" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 49 values pushed */
+          PUSH[ ]  /* 49 values pushed */
           26 25 9 8 4 2 1 43 1 4 0 44 1 5 4 3 64 0 4 0 5 4 5 85 3
           1 1 1 12 65 0 2 2 0 82 0 0 0 16 0 66 35 44 21 41 24 32 6 20
           CALL[ ]
@@ -2632,7 +2612,7 @@
         <pt x="443" y="-21" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 19 values pushed */
+          PUSH[ ]  /* 19 values pushed */
           10 9 7 5 1 5 0 61 1 1 0 0 12 0 66 24 18 2 16
           CALL[ ]
         </assembly></instructions>
@@ -2671,7 +2651,7 @@
         <pt x="381" y="-10" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 35 values pushed */
+          PUSH[ ]  /* 35 values pushed */
           26 19 18 16 14 10 6 5 1 9 3 0 1 64 2 1 2 0 0 12 65 4 1 3 3
           13 3 66 18 19 24 24 18 5 19
           CALL[ ]
@@ -2730,7 +2710,7 @@
         <pt x="-65" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 34 values pushed */
+          PUSH[ ]  /* 34 values pushed */
           24 23 22 16 11 10 9 8 4 2 10 2 0 1 64 1 1 0 0 12 65 3 1 2 2
           13 2 66 22 22 22 21 4 18
           CALL[ ]
@@ -2764,7 +2744,7 @@
         <pt x="239" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 29 values pushed */
+          PUSH[ ]  /* 29 values pushed */
           19 13 12 10 8 4 2 7 2 0 1 64 1 1 0 0 12 65 0 2 2 13 2 66 22
           24 21 3 17
           CALL[ ]
@@ -2811,7 +2791,7 @@
         <pt x="25" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 36 values pushed */
+          PUSH[ ]  /* 36 values pushed */
           13 12 5 4 4 2 0 1 64 0 0 0 1 79 0 1 1 12 65 0 2 2 3 79 0
           3 3 13 3 66 19 19 19 18 4 18
           CALL[ ]
@@ -2888,7 +2868,7 @@
         <pt x="230" y="566" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 55 values pushed */
+          PUSH[ ]  /* 55 values pushed */
           22 1 5 2 41 30 29 5 4 3 5 2 64 0 5 5 2 81 0 2 2 15 65 4 1
           3 3 0 81 1 6 2 0 0 16 0 66 1 0 43 42 37 35 28 26 19 18 9 8 0
           33 1 33 7 14
@@ -2923,7 +2903,7 @@
         <pt x="100" y="1255" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           7 1 1 38
           CALL[ ]
         </assembly></instructions>
@@ -2939,7 +2919,7 @@
         <pt x="115" y="1614" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           5 1 1 38
           CALL[ ]
         </assembly></instructions>
@@ -3027,7 +3007,7 @@
         <pt x="233" y="551" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 82 values pushed */
+          PUSH[ ]  /* 82 values pushed */
           22 1 6 3 61 25 2 7 6 57 9 3 2 4 0 5 3 64 24 1 3 62 0 7 0
           5 0 7 5 89 9 1 6 6 3 81 4 1 3 3 15 65 8 10 2 0 0 1 81 2
           1 1 1 16 1 66 1 0 63 62 54 52 48 47 44 42 37 36 28 26 21 20 14 12 8
@@ -3110,7 +3090,7 @@
         <pt x="1517" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 10 values pushed */
+          PUSH[ ]  /* 10 values pushed */
           57 55 52 44 31 21 13 4 4 38
           CALL[ ]
         </assembly></instructions>
@@ -3227,7 +3207,7 @@
         <pt x="538" y="554" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 87 values pushed */
+          PUSH[ ]  /* 87 values pushed */
           68 1 3 5 82 37 27 10 4 2 4 55 1 6 2 90 59 36 29 0 5 7 6 4 64
           0 5 9 3 9 5 3 102 0 3 0 2 6 3 2 89 0 4 0 6 7 4 6 89 0
           9 9 1 81 0 1 1 20 65 10 1 7 7 0 81 8 1 0 0 21 0 66 89 87 77
@@ -3310,7 +3290,7 @@
         <pt x="230" y="566" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 63 values pushed */
+          PUSH[ ]  /* 63 values pushed */
           22 1 6 1 60 30 29 5 4 2 6 0 1 0 2 41 1 3 0 42 1 4 3 5 64
           0 3 0 4 3 4 85 0 6 6 1 81 0 1 1 15 65 5 1 2 2 0 81 0 0
           0 16 0 66 21 41 35 42 39 25 24 7 21
@@ -3322,19 +3302,11 @@
       <component glyphName="asciitilde" x="-106" y="-434" flags="0x1004"/>
       <component glyphName="asciitilde" x="-53" y="11" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          -434
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 -434 41
           CALL[ ]
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHB[ ]  /* 1 value pushed */
-          11
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 11 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -3355,7 +3327,7 @@
         <pt x="182" y="510" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 23 values pushed */
+          PUSH[ ]  /* 23 values pushed */
           4 1 1 0 1 64 2 1 1 0 1 105 0 0 0 12 0 66 18 17 16 3 17
           CALL[ ]
         </assembly></instructions>
@@ -3389,7 +3361,7 @@
         <pt x="461" y="913" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 51 values pushed */
+          PUSH[ ]  /* 51 values pushed */
           15 14 2 0 1 3 2 2 3 2 2 64 0 1 4 1 0 2 1 0 89 0 2 3 3
           2 77 0 2 2 3 81 0 3 2 3 69 1 0 20 18 13 11 8 6 0 23 1 23 5
           14
@@ -3431,7 +3403,7 @@
         <pt x="347" y="829" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 34 values pushed */
+          PUSH[ ]  /* 34 values pushed */
           29 27 22 20 19 17 15 14 12 7 5 4 2 0 14 1 0 1 64 0 1 1 0 79 0
           0 0 14 1 66 30 25 2 16
           CALL[ ]
@@ -3539,7 +3511,7 @@
         <pt x="686" y="582" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 68 values pushed */
+          PUSH[ ]  /* 68 values pushed */
           47 46 2 9 4 85 30 2 5 9 76 0 2 7 2 3 64 0 4 0 9 5 4 9 89
           0 7 0 0 7 0 85 0 6 6 1 81 0 1 1 20 65 8 1 5 5 2 81 3 1
           2 2 13 2 66 89 88 35 40 40 43 24 41 24 40 33 10 23
@@ -3595,7 +3567,7 @@
         <pt x="362" y="826" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 46 values pushed */
+          PUSH[ ]  /* 46 values pushed */
           22 10 2 2 3 4 3 2 0 2 2 64 9 8 6 5 4 1 62 0 3 3 1 81 0
           1 1 15 65 0 2 2 0 81 0 0 0 16 0 66 39 25 27 17 4 18
           CALL[ ]
@@ -3611,35 +3583,35 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           13
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 11 values pushed */
+          PUSH[ ]  /* 11 values pushed */
           0 1 0 1 105 0 0 0 14 0 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           15
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 9 values pushed */
+          PUSH[ ]  /* 9 values pushed */
           0 0 1 0 104 0 1 1 95
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 11 values pushed */
+          PUSH[ ]  /* 11 values pushed */
           0 1 0 1 105 0 0 0 14 0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 9 values pushed */
+          PUSH[ ]  /* 9 values pushed */
           0 0 1 0 104 0 1 1 95
           EIF[ ]
           EIF[ ]
           EIF[ ]
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -3653,7 +3625,7 @@
         <pt x="380" y="-186" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -3711,7 +3683,7 @@
         <pt x="801" y="1713" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 42 values pushed */
+          PUSH[ ]  /* 42 values pushed */
           0 1 0 3 36 10 2 1 0 2 64 0 3 0 0 1 3 0 87 0 1 2 2 1 75
           0 1 1 2 81 0 2 1 2 69 47 45 22 28 18 4 17
           CALL[ ]
@@ -3719,14 +3691,10 @@
     </TTGlyph>
 
     <TTGlyph name="braceright" xMin="83" yMin="-167" xMax="905" yMax="1710">
-      <component glyphName="braceleft" x="1070" y="1546" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="braceleft" x="1070" y="1546" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1546
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1546 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -3762,7 +3730,7 @@
         <pt x="567" y="1606" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           0 2 0 4 0 2 4 87 0 0 0 1 0 1 85 0 3 3 14 3 66 17 17 44 34
           64 5 19
           CALL[ ]
@@ -3770,14 +3738,10 @@
     </TTGlyph>
 
     <TTGlyph name="bracketright" xMin="38" yMin="-157" xMax="703" yMax="1730">
-      <component glyphName="bracketleft" x="905" y="1556" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="bracketleft" x="905" y="1556" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1556
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1556 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -3813,7 +3777,7 @@
         <pt x="611" y="1450" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 2 0 0 2 0 85 3 1 1 1 14 1 66 19 38 23 17 4 18
           CALL[ ]
         </assembly></instructions>
@@ -3850,7 +3814,7 @@
         <pt x="611" y="1781" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           9 1 1 38
           CALL[ ]
         </assembly></instructions>
@@ -3870,7 +3834,7 @@
         <pt x="380" y="-186" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           0 0 0 1 2 0 1 87 0 2 3 3 2 75 0 2 2 3 79 0 3 2 3 67 17
           17 17 16 4 18
           CALL[ ]
@@ -3897,7 +3861,7 @@
         <pt x="586" y="648" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 1 0 0 1 77 0 1 1 0 81 0 0 1 0 69 39 17 2 16
           CALL[ ]
         </assembly></instructions>
@@ -3940,7 +3904,7 @@
         <pt x="866" y="1115" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 39 values pushed */
+          PUSH[ ]  /* 39 values pushed */
           32 1 0 3 14 13 0 3 1 0 2 64 0 0 0 3 81 0 3 3 15 65 0 1 1
           2 81 0 2 2 16 2 66 25 23 37 33 4 18
           CALL[ ]
@@ -3964,7 +3928,7 @@
         <pt x="311" y="1255" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 14 values pushed */
+          PUSH[ ]  /* 14 values pushed */
           5 4 1 0 4 0 62 0 0 0 95 22 1 15
           CALL[ ]
         </assembly></instructions>
@@ -3981,7 +3945,7 @@
         <pt x="304" y="1614" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           5 1 1 38
           CALL[ ]
         </assembly></instructions>
@@ -4004,7 +3968,7 @@
         <pt x="251" y="1643" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           6 0 1 38
           CALL[ ]
         </assembly></instructions>
@@ -4068,7 +4032,7 @@
         <pt x="137" y="-436" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 60 values pushed */
+          PUSH[ ]  /* 60 values pushed */
           22 1 3 2 37 36 23 3 4 3 39 1 1 4 0 1 0 1 48 1 5 0 5 64 0
           0 0 5 0 5 85 0 3 3 2 81 0 2 2 15 65 0 4 4 1 81 0 1 1 16
           1 66 44 37 38 24 37 17 6 20
@@ -4109,7 +4073,7 @@
         <pt x="11" y="-436" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 32 values pushed */
+          PUSH[ ]  /* 32 values pushed */
           18 1 1 0 1 64 7 6 0 3 0 62 0 0 1 1 0 77 0 0 0 1 81 0 1
           0 1 69 27 17 2 16
           CALL[ ]
@@ -4155,7 +4119,7 @@
         <pt x="919" y="1115" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 46 values pushed */
+          PUSH[ ]  /* 46 values pushed */
           34 32 2 0 2 14 13 0 3 1 0 2 64 19 18 17 3 1 61 0 1 0 1 105 0
           2 0 0 2 75 0 2 2 0 81 0 0 2 0 69 31 30 37 33 3 16
           CALL[ ]
@@ -4173,7 +4137,7 @@
         <pt x="100" y="1228" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 17 values pushed */
+          PUSH[ ]  /* 17 values pushed */
           6 5 4 3 0 5 0 61 0 0 0 14 0 66 17 1 15
           CALL[ ]
         </assembly></instructions>
@@ -4190,7 +4154,7 @@
         <pt x="105" y="1619" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           4 1 1 38
           CALL[ ]
         </assembly></instructions>
@@ -4200,12 +4164,8 @@
       <component glyphName="period" x="73" y="809" flags="0x1204"/>
       <component glyphName="period" x="-19" y="0" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          809
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 809 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -4234,7 +4194,7 @@
         <pt x="91" y="116" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 16 values pushed */
+          PUSH[ ]  /* 16 values pushed */
           1 1 0 62 9 1 0 61 0 0 0 95 19 18 1 14
           CALL[ ]
         </assembly></instructions>
@@ -4263,7 +4223,7 @@
         <pt x="62" y="-147" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           9 0 1 38
           CALL[ ]
         </assembly></instructions>
@@ -4353,7 +4313,7 @@
         <pt x="1081" y="447" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 64 values pushed */
+          PUSH[ ]  /* 64 values pushed */
           62 1 7 5 46 45 2 8 6 2 64 0 6 7 8 7 6 8 102 0 5 0 7 6 5
           7 89 0 8 0 4 2 8 4 89 0 2 0 1 2 1 85 0 3 3 0 81 0 0 0
           20 3 66 22 34 18 41 26 24 26 42 37 9 23
@@ -4407,7 +4367,7 @@
         <pt x="457" y="827" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 57 values pushed */
+          PUSH[ ]  /* 57 values pushed */
           15 12 2 3 1 21 18 9 6 4 2 3 3 0 2 0 2 3 64 17 16 11 10 4 1
           62 23 22 5 4 4 0 61 0 2 0 0 2 0 85 0 3 3 1 81 0 1 1 15 3
           66 38 45 27 17 4 18
@@ -4475,7 +4435,7 @@
         <pt x="758" y="296" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 50 values pushed */
+          PUSH[ ]  /* 50 values pushed */
           21 1 4 1 39 33 32 5 4 2 4 2 64 25 23 22 3 1 62 0 4 4 1 81 0
           1 1 15 65 5 1 2 2 0 81 3 1 0 0 16 0 66 39 18 37 41 41 24 6 20
           CALL[ ]
@@ -4502,7 +4462,7 @@
         <pt x="292" y="151" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 39 values pushed */
+          PUSH[ ]  /* 39 values pushed */
           5 1 1 2 13 1 5 0 2 64 0 5 0 5 105 3 1 1 4 1 0 5 1 0 88
           0 2 2 14 2 66 18 17 18 18 17 17 6 20
           CALL[ ]
@@ -4545,7 +4505,7 @@
         <pt x="296" y="-51" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 57 values pushed */
+          PUSH[ ]  /* 57 values pushed */
           10 1 3 4 22 20 19 5 4 1 2 2 64 5 1 3 6 1 2 1 3 2 88 7 1
           1 8 1 0 9 1 0 87 0 4 4 14 65 0 9 9 16 9 66 31 30 17 22 17 18
           18 17 18 17 17 10 23
@@ -4557,12 +4517,8 @@
       <component glyphName="d" x="0" y="0" flags="0x1004"/>
       <component glyphName="caronvertical" x="1027" y="-22" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          2 1
-          PUSHW[ ]  /* 1 value pushed */
-          -22
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          2 1 -22 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -4635,7 +4591,7 @@
         <pt x="758" y="296" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 66 values pushed */
+          PUSH[ ]  /* 66 values pushed */
           21 1 8 1 47 41 40 5 4 6 8 2 64 30 29 27 26 4 3 62 4 1 3 5 1
           2 1 3 2 87 0 8 8 1 81 0 1 1 15 65 9 1 6 6 0 81 7 1 0 0
           16 0 66 58 56 18 37 35 17 22 17 18 41 24 10 23
@@ -4685,18 +4641,18 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           22
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           5 1 2 4 1 0 2 0 85 0 3 3 1 81 0 1 1 14 3 66
           ELSE[ ]
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 1 0 3 2 1 3 89 5 1 2 0 0 2 77 5 1 2 2 0 81 4 1 0 2
           0 69
           EIF[ ]
-          NPUSHB[ ]  /* 18 values pushed */
+          PUSH[ ]  /* 18 values pushed */
           20 19 1 0 29 27 19 34 20 34 12 10 0 18 1 18 6 14
           CALL[ ]
         </assembly></instructions>
@@ -4733,7 +4689,7 @@
         <pt x="222" y="1406" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 25 values pushed */
+          PUSH[ ]  /* 25 values pushed */
           4 3 2 1 1 0 81 2 1 0 0 14 1 66 13 13 13 24 13 24 22 37 20 5 17
           CALL[ ]
         </assembly></instructions>
@@ -4771,7 +4727,7 @@
         <pt x="154" y="1717" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           24 18 10 4 2 38
           CALL[ ]
         </assembly></instructions>
@@ -4816,7 +4772,7 @@
         <pt x="649" y="501" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 57 values pushed */
+          PUSH[ ]  /* 57 values pushed */
           6 1 0 0 1 2 0 1 89 0 2 0 3 4 2 3 87 7 1 4 5 5 4 77 7
           1 4 4 5 81 0 5 4 5 69 19 18 1 0 24 23 18 30 19 30 17 16 15 14 6
           5 0 13 1 13 8 14
@@ -4878,7 +4834,7 @@
         <pt x="857" y="1729" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 57 values pushed */
+          PUSH[ ]  /* 57 values pushed */
           2 0 2 1 6 30 27 2 5 4 2 64 0 0 1 4 1 0 4 102 0 4 5 1 4
           5 100 0 6 0 1 0 6 1 89 0 5 0 2 5 2 83 0 3 3 21 3 66 30 20
           20 17 29 34 19 7 21
@@ -4902,7 +4858,7 @@
         <pt x="231" y="1421" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 21 values pushed */
+          PUSH[ ]  /* 21 values pushed */
           2 1 1 1 0 81 0 0 0 14 1 66 0 0 0 11 0 11 21 3 15
           CALL[ ]
         </assembly></instructions>
@@ -4927,7 +4883,7 @@
         <pt x="158" y="1701" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           13 7 1 38
           CALL[ ]
         </assembly></instructions>
@@ -4957,7 +4913,7 @@
         <pt x="307" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 32 values pushed */
+          PUSH[ ]  /* 32 values pushed */
           16 15 9 8 6 5 2 7 1 62 0 1 0 1 104 2 1 0 0 16 0 66 1 0 14
           12 0 19 1 19 3 14
           CALL[ ]
@@ -4987,7 +4943,7 @@
         <pt x="-242" y="-481" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 29 values pushed */
+          PUSH[ ]  /* 29 values pushed */
           18 1 1 0 1 64 11 10 8 7 0 5 0 62 0 0 0 1 81 0 1 1 17 1 66
           45 17 2 16
           CALL[ ]
@@ -5048,7 +5004,7 @@
         <pt x="265" y="672" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 55 values pushed */
+          PUSH[ ]  /* 55 values pushed */
           3 2 2 0 3 1 64 0 4 0 3 0 4 3 89 0 5 5 2 81 0 2 2 15 65
           6 1 0 0 1 81 0 1 1 16 1 66 1 0 42 41 35 34 26 25 16 15 7 6 0
           33 1 33 7 14
@@ -5158,7 +5114,7 @@
         <pt x="414" y="656" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 36 values pushed */
+          PUSH[ ]  /* 36 values pushed */
           57 27 15 2 4 3 2 1 64 0 2 2 1 81 0 1 1 20 65 0 3 3 0 81 0
           0 0 16 0 66 44 42 44 40 4 18
           CALL[ ]
@@ -5206,7 +5162,7 @@
         <pt x="335" y="55" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 23 values pushed */
+          PUSH[ ]  /* 23 values pushed */
           5 3 2 1 1 0 81 4 2 2 0 0 21 0 66 21 20 21 20 21 16 6 20
           CALL[ ]
         </assembly></instructions>
@@ -5225,7 +5181,7 @@
         <pt x="238" y="710" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -5239,7 +5195,7 @@
         <pt x="238" y="710" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -5288,7 +5244,7 @@
         <pt x="368" y="-481" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 57 values pushed */
+          PUSH[ ]  /* 57 values pushed */
           24 21 2 1 3 25 20 2 2 1 0 1 0 2 38 1 4 0 4 64 23 1 3 62 0
           1 1 3 81 0 3 3 15 65 0 2 2 13 65 0 0 0 4 81 0 4 4 17 4 66
           38 25 21 26 17 5 19
@@ -5379,7 +5335,7 @@
         <pt x="265" y="672" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 70 values pushed */
+          PUSH[ ]  /* 70 values pushed */
           52 42 41 3 4 3 47 10 2 1 4 62 1 5 1 0 1 0 5 4 64 0 6 0 3
           4 6 3 89 0 5 0 0 5 0 85 0 7 7 2 81 0 2 2 15 65 0 4 4 1
           81 0 1 1 16 1 66 71 70 64 63 61 59 39 25 24 24 33 8 19
@@ -5401,7 +5357,7 @@
         <pt x="82" y="355" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           0 0 0 1 2 0 1 87 0 2 3 3 2 75 0 2 2 3 79 0 3 2 3 67 17
           17 17 16 4 18
           CALL[ ]
@@ -5446,7 +5402,7 @@
         <pt x="954" y="1261" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           28 25 20 12 2 38
           CALL[ ]
         </assembly></instructions>
@@ -5514,7 +5470,7 @@
         <pt x="395" y="914" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 46 values pushed */
+          PUSH[ ]  /* 46 values pushed */
           20 1 2 3 1 64 35 34 32 30 29 27 26 25 24 0 10 1 62 0 1 0 3 2 1
           3 89 0 2 2 0 81 0 0 0 16 0 66 54 53 43 41 39 23 4 16
           CALL[ ]
@@ -5546,7 +5502,7 @@
         <pt x="230" y="-18" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 0 1 0 104 0 1 2 1 104 0 2 2 3 81 0 3 3 21 3 66 22 23 17 16
           4 18
           CALL[ ]
@@ -5559,14 +5515,10 @@
     </TTGlyph>
 
     <TTGlyph name="exclamdown" xMin="106" yMin="-434" xMax="563" yMax="1362">
-      <component glyphName="exclam" x="719" y="1344" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="exclam" x="719" y="1344" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 2
-          PUSHW[ ]  /* 1 value pushed */
-          1344
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 2 1344 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -5612,7 +5564,7 @@
         <pt x="-210" y="-494" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 59 values pushed */
+          PUSH[ ]  /* 59 values pushed */
           17 1 3 2 18 1 4 3 0 1 0 1 36 1 6 0 4 64 0 3 3 2 81 0 2
           2 14 65 5 1 1 1 4 79 0 4 4 15 65 0 0 0 6 81 0 6 6 17 6 66
           36 17 19 20 38 21 17 7 21
@@ -5703,7 +5655,7 @@
         <pt x="58" y="-329" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 52 values pushed */
+          PUSH[ ]  /* 52 values pushed */
           22 1 1 5 15 14 0 3 0 1 36 1 6 0 3 64 0 5 0 1 0 5 1 89 0
           0 0 6 0 6 85 0 4 4 2 79 3 1 2 2 15 4 66 41 18 17 17 20 25 17
           7 21
@@ -5739,21 +5691,21 @@
         <pt x="1018" y="1673" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 10 values pushed */
+          PUSH[ ]  /* 10 values pushed */
           23 1 0 5 0 1 1 0 2 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           24
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 3 2 3 105 0 0 0 5 81 0 5 5 14 65 4 1 2 2 1 79 0 1 1 15
           2 66
           ELSE[ ]
-          NPUSHB[ ]  /* 25 values pushed */
+          PUSH[ ]  /* 25 values pushed */
           0 3 2 3 105 0 5 0 0 1 5 0 89 4 1 2 2 1 79 0 1 1 15 2 66
           EIF[ ]
-          PUSHB[ ]  /* 8 values pushed */
+          PUSH[ ]  /* 8 values pushed */
           38 17 17 17 21 17 6 20
           CALL[ ]
         </assembly></instructions>
@@ -5784,7 +5736,7 @@
         <pt x="74" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 48 values pushed */
+          PUSH[ ]  /* 48 values pushed */
           12 7 2 2 0 1 64 0 0 2 0 104 0 4 3 4 105 0 2 2 3 79 5 1 3
           3 13 65 0 1 1 3 80 5 1 3 3 13 3 66 17 17 17 19 19 21 6 20
           CALL[ ]
@@ -5811,7 +5763,7 @@
         <pt x="651" y="475" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 48 values pushed */
+          PUSH[ ]  /* 48 values pushed */
           9 5 2 3 1 1 64 0 1 3 1 104 0 5 0 5 105 0 3 2 0 3 75 0 2
           0 0 2 75 0 2 2 0 80 4 1 0 2 0 68 17 17 19 18 18 16 6 20
           CALL[ ]
@@ -5826,7 +5778,7 @@
         <pt x="105" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 15 values pushed */
+          PUSH[ ]  /* 15 values pushed */
           0 0 0 12 65 0 1 1 13 1 66 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -5885,7 +5837,7 @@
         <pt x="753" y="289" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 73 values pushed */
+          PUSH[ ]  /* 73 values pushed */
           2 1 4 0 32 18 2 5 4 11 1 2 3 10 1 1 2 4 64 3 1 0 62 0 4
           4 0 81 6 1 0 0 15 65 0 5 5 3 81 0 3 3 16 65 0 2 2 1 81 0
           1 1 17 1 66 1 0 43 41 34 33 22 21 13 12 9 7 0 31 1 31 7 14
@@ -5976,7 +5928,7 @@
         <pt x="753" y="289" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 77 values pushed */
+          PUSH[ ]  /* 77 values pushed */
           20 1 4 0 50 36 2 5 4 29 1 2 3 28 1 1 2 4 64 21 16 9 8 0 5
           0 62 0 4 4 0 81 6 1 0 0 15 65 0 5 5 3 81 0 3 3 16 65 0 2
           2 1 81 0 1 1 17 1 66 19 18 61 59 52 51 40 39 31 30 27 25 18 49 19 49
@@ -6051,7 +6003,7 @@
         <pt x="82" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 43 values pushed */
+          PUSH[ ]  /* 43 values pushed */
           27 1 2 3 26 1 1 2 2 64 0 3 3 0 81 0 0 0 20 65 0 2 2 1 81
           4 1 1 1 21 1 66 56 55 50 49 31 30 25 23 21 5 15
           CALL[ ]
@@ -6069,7 +6021,7 @@
         <pt x="411" y="1270" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           5 3 1 38
           CALL[ ]
         </assembly></instructions>
@@ -6084,21 +6036,17 @@
         <pt x="454" y="1651" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           3 0 1 38
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
 
     <TTGlyph name="greater" xMin="221" yMin="178" xMax="1245" yMax="1327">
-      <component glyphName="less" x="1442" y="1503" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="less" x="1442" y="1503" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1503
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1503 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -6120,7 +6068,7 @@
         <pt x="146" y="-2" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           9 7 6 3 2 38
           CALL[ ]
         </assembly></instructions>
@@ -6132,22 +6080,14 @@
     </TTGlyph>
 
     <TTGlyph name="guillemotright" xMin="137" yMin="151" xMax="1557" yMax="1086">
-      <component glyphName="guilsinglleft" x="1125" y="1238" scale="-0.999938964844" flags="0x1004"/>
-      <component glyphName="guilsinglleft" x="1801" y="1238" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="guilsinglleft" x="1125" y="1238" scale="-0.99997" flags="0x1004"/>
+      <component glyphName="guilsinglleft" x="1801" y="1238" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1238
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1238 41
           CALL[ ]
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          1238
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 1238 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -6163,21 +6103,17 @@
         <pt x="244" y="547" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           5 1 1 38
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
 
     <TTGlyph name="guilsinglright" xMin="133" yMin="151" xMax="877" yMax="1086">
-      <component glyphName="guilsinglleft" x="1121" y="1238" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="guilsinglleft" x="1121" y="1238" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1238
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1238 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -6238,7 +6174,7 @@
         <pt x="974" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 58 values pushed */
+          PUSH[ ]  /* 58 values pushed */
           48 47 28 3 4 1 1 64 27 26 24 23 4 3 62 0 1 1 3 81 0 3 3 15 65
           0 2 2 13 65 0 4 4 0 81 5 1 0 0 16 0 66 1 0 45 44 32 31 22 21
           16 15 0 51 1 51 6 14
@@ -6310,7 +6246,7 @@
         <pt x="974" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 76 values pushed */
+          PUSH[ ]  /* 76 values pushed */
           56 55 36 3 8 1 1 64 31 30 28 27 4 4 62 5 1 4 6 1 3 7 4 3 87
           0 1 1 7 81 0 7 7 15 65 0 2 2 13 65 0 8 8 0 81 9 1 0 0 16
           0 66 1 0 53 52 40 39 35 34 33 32 26 25 24 23 22 21 16 15 0 59 1 59 10
@@ -6383,7 +6319,7 @@
         <pt x="974" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 69 values pushed */
+          PUSH[ ]  /* 69 values pushed */
           33 32 31 28 27 26 24 23 8 4 3 56 55 36 3 5 1 2 64 0 3 4 3 104 0
           1 1 4 81 0 4 4 15 65 0 2 2 13 65 0 5 5 0 81 6 1 0 0 16 0
           66 1 0 53 52 40 39 30 29 22 21 16 15 0 59 1 59 7 14
@@ -6411,7 +6347,7 @@
         <pt x="107" y="1257" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           13 8 6 1 2 38
           CALL[ ]
         </assembly></instructions>
@@ -6437,7 +6373,7 @@
         <pt x="110" y="1584" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           13 8 6 1 2 38
           CALL[ ]
         </assembly></instructions>
@@ -6451,7 +6387,7 @@
         <pt x="238" y="709" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -6585,7 +6521,7 @@
         <pt x="1079" y="745" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 8 values pushed */
+          PUSH[ ]  /* 8 values pushed */
           58 50 39 32 9 2 3 38
           CALL[ ]
         </assembly></instructions>
@@ -6643,7 +6579,7 @@
         <pt x="41" y="-371" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           42 18 1 38
           CALL[ ]
         </assembly></instructions>
@@ -6706,7 +6642,7 @@
         <pt x="381" y="-245" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 62 values pushed */
+          PUSH[ ]  /* 62 values pushed */
           38 37 31 30 28 27 6 3 1 50 22 2 4 3 12 1 2 4 3 64 0 3 1 4 1
           3 4 102 0 4 0 2 4 2 85 5 1 1 1 0 81 0 0 0 14 1 66 0 0 49
           47 36 34 15 13 0 11 0 11 21 6 15
@@ -6774,7 +6710,7 @@
         <pt x="968" y="96" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 55 values pushed */
+          PUSH[ ]  /* 55 values pushed */
           35 1 2 3 8 7 2 4 2 2 64 3 1 0 3 3 62 0 2 3 4 3 2 4 102
           0 4 0 3 4 0 100 0 3 3 15 65 0 0 0 13 65 0 1 1 16 1 66 25 26
           19 37 21 5 19
@@ -6818,32 +6754,32 @@
         <pt x="543" y="586" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 21 values pushed */
+          PUSH[ ]  /* 21 values pushed */
           24 4 1 0 4 3 4 11 1 1 3 12 1 0 1 3 64 3 1 4 62
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 31 values pushed */
+          PUSH[ ]  /* 31 values pushed */
           0 3 4 1 4 3 1 102 0 1 0 4 1 0 100 0 4 4 15 65 0 0 0 13 65
           0 2 2 16 2 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           24
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 3 4 1 4 3 1 102 0 1 0 4 1 0 100 0 4 4 15 65 2 1 0 0 13
           0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 31 values pushed */
+          PUSH[ ]  /* 31 values pushed */
           0 3 4 1 4 3 1 102 0 1 0 4 1 0 100 0 4 4 15 65 0 0 0 13 65
           0 2 2 16 2 66
           EIF[ ]
           EIF[ ]
-          PUSHB[ ]  /* 7 values pushed */
+          PUSH[ ]  /* 7 values pushed */
           17 19 37 34 21 5 19
           CALL[ ]
         </assembly></instructions>
@@ -6873,7 +6809,7 @@
         <pt x="307" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           16 15 8 6 5 5 1 62 0 1 0 1 104 2 1 0 0 16 0 66 1 0 14 12 0
           19 1 19 3 14
           CALL[ ]
@@ -6911,7 +6847,7 @@
         <pt x="413" y="1614" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 39 values pushed */
+          PUSH[ ]  /* 39 values pushed */
           15 1 0 1 1 64 24 21 20 19 14 9 7 6 8 1 62 0 1 1 0 81 2 1 0
           0 16 0 66 1 0 13 12 0 18 1 18 3 14
           CALL[ ]
@@ -6922,19 +6858,11 @@
       <component glyphName="l" x="0" y="2" flags="0x1004"/>
       <component glyphName="caronvertical" x="434" y="-22" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHB[ ]  /* 1 value pushed */
-          2
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 2 41
           CALL[ ]
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          -22
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 -22 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -6948,12 +6876,8 @@
       <component glyphName="l" x="0" y="0" flags="0x1004"/>
       <component glyphName="period" x="472" y="662" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          662
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 662 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -6969,7 +6893,7 @@
         <pt x="197" y="699" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           5 1 1 38
           CALL[ ]
         </assembly></instructions>
@@ -6992,7 +6916,7 @@
         <pt x="137" y="-2" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           9 7 5 1 2 38
           CALL[ ]
         </assembly></instructions>
@@ -7008,7 +6932,7 @@
         <pt x="214" y="731" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 26 values pushed */
+          PUSH[ ]  /* 26 values pushed */
           0 1 2 1 105 0 0 2 2 0 75 0 0 0 2 79 0 2 0 2 67 17 17 16 3
           17
           CALL[ ]
@@ -7033,7 +6957,7 @@
         <pt x="679" y="120" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           11 9 6 2 2 38
           CALL[ ]
         </assembly></instructions>
@@ -7071,7 +6995,7 @@
         <pt x="307" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 37 values pushed */
+          PUSH[ ]  /* 37 values pushed */
           24 23 16 15 14 13 12 10 9 7 6 5 12 1 62 0 1 0 1 104 2 1 0 0 16
           0 66 1 0 22 20 0 27 1 27 3 14
           CALL[ ]
@@ -7154,7 +7078,7 @@
         <pt x="1579" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 74 values pushed */
+          PUSH[ ]  /* 74 values pushed */
           41 38 2 1 5 68 67 49 42 37 5 7 1 2 64 40 1 5 62 0 7 1 2 1 7
           2 102 3 1 1 1 5 81 6 1 5 5 15 65 4 1 2 2 13 65 8 1 0 0 16
           0 66 1 0 66 64 53 52 47 45 36 35 30 29 22 21 14 13 0 71 1 71 9 14
@@ -7170,7 +7094,7 @@
         <pt x="47" y="1432" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 15 values pushed */
+          PUSH[ ]  /* 15 values pushed */
           0 1 1 0 79 0 0 0 12 1 66 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -7184,7 +7108,7 @@
         <pt x="50" y="1745" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           2 0 1 38
           CALL[ ]
         </assembly></instructions>
@@ -7198,7 +7122,7 @@
         <pt x="238" y="709" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           2 0 1 38
           CALL[ ]
         </assembly></instructions>
@@ -7212,7 +7136,7 @@
         <pt x="308" y="1190" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -7273,7 +7197,7 @@
         <pt x="559" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 74 values pushed */
+          PUSH[ ]  /* 74 values pushed */
           47 37 12 8 4 4 2 38 2 2 0 4 2 64 13 1 2 1 63 0 2 3 4 3 2
           4 102 0 1 0 1 105 5 1 3 3 15 65 6 1 4 4 0 82 7 8 2 0 0 16
           0 66 1 0 42 41 36 35 32 31 27 25 18 16 11 10 4 3 0 50 1 50 9 14
@@ -7297,7 +7221,7 @@
         <pt x="324" y="326" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           11 5 1 38
           CALL[ ]
         </assembly></instructions>
@@ -7354,7 +7278,7 @@
         <pt x="939" y="-21" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 64 values pushed */
+          PUSH[ ]  /* 64 values pushed */
           24 21 2 1 3 43 42 25 20 4 4 1 2 64 23 1 3 62 0 4 1 2 1 4 2
           102 0 1 1 3 81 0 3 3 15 65 0 2 2 13 65 5 1 0 0 16 0 66 1 0
           41 39 29 28 19 18 13 12 0 46 1 46 6 14
@@ -7429,7 +7353,7 @@
         <pt x="434" y="263" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 42 values pushed */
+          PUSH[ ]  /* 42 values pushed */
           4 1 2 3 1 64 26 0 2 0 61 4 1 2 0 0 2 0 85 0 3 3 1 81 0
           1 1 15 3 66 28 27 39 37 27 45 28 45 39 23 5 16
           CALL[ ]
@@ -7466,7 +7390,7 @@
         <pt x="159" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           18 8 1 38
           CALL[ ]
         </assembly></instructions>
@@ -7515,7 +7439,7 @@
         <pt x="474" y="468" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 67 values pushed */
+          PUSH[ ]  /* 67 values pushed */
           6 1 4 3 4 104 7 5 2 3 14 8 2 2 1 3 2 88 16 15 9 3 1 12 10
           2 0 11 1 0 87 13 1 11 11 13 11 66 28 28 28 31 28 31 30 29 27 26 25 24
           23 22 21 20 19 18 17 17 17 17 17 17 17 17 16 17 23
@@ -7562,7 +7486,7 @@
         <pt x="252" y="516" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 3 3 0 81 0 0 0 15 65 0 2 2 1 81 0 1 1 16 1 66 36 34 25 23
           4 18
           CALL[ ]
@@ -7674,7 +7598,7 @@
         <pt x="252" y="516" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 77 values pushed */
+          PUSH[ ]  /* 77 values pushed */
           67 25 2 6 7 65 1 5 6 11 3 2 3 0 5 3 64 0 6 0 5 0 6 5 89
           9 1 7 7 3 81 4 1 3 3 15 65 8 10 2 0 0 1 81 2 1 1 1 16 1
           66 1 0 72 70 62 60 53 52 46 45 37 36 28 26 24 22 14 12 8 6 0 44 1 44
@@ -7710,7 +7634,7 @@
         <pt x="403" y="-239" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 33 values pushed */
+          PUSH[ ]  /* 33 values pushed */
           0 1 0 1 1 64 22 14 13 3 1 62 0 1 0 0 1 77 0 1 1 0 81 0 0
           1 0 69 21 19 33 2 15
           CALL[ ]
@@ -7752,7 +7676,7 @@
         <pt x="130" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 17 values pushed */
+          PUSH[ ]  /* 17 values pushed */
           12 11 10 7 6 5 0 62 0 0 0 13 0 66 30 1 15
           CALL[ ]
         </assembly></instructions>
@@ -7763,12 +7687,8 @@
       <component glyphName="fraction" x="715" y="0" flags="0x1004"/>
       <component glyphName="onesuperior" x="31" y="0" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          -714
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 -714 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -7778,12 +7698,8 @@
       <component glyphName="fraction" x="715" y="0" flags="0x1004"/>
       <component glyphName="onesuperior" x="31" y="0" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          -650
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 -650 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -7811,7 +7727,7 @@
         <pt x="242" y="654" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 16 values pushed */
+          PUSH[ ]  /* 16 values pushed */
           15 14 13 9 8 5 0 62 0 0 0 95 18 17 1 14
           CALL[ ]
         </assembly></instructions>
@@ -7866,29 +7782,29 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           11 1 5 1 34 17 0 3 4 5 18 1 0 2 3 64 12 1 1 62
           ELSE[ ]
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           11 1 5 1 34 17 0 3 2 5 18 1 0 2 3 64 12 1 1 62
           EIF[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 2 4 0 4 2 0 102 0 4 3 1 0 4 0 85 0 5 5 1 81 0 1 1 20
           5 66
           ELSE[ ]
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           4 1 2 3 1 0 2 0 85 0 5 5 1 81 0 1 1 20 5 66
           EIF[ ]
-          PUSHB[ ]  /* 8 values pushed */
+          PUSH[ ]  /* 8 values pushed */
           22 22 21 36 22 33 6 20
           CALL[ ]
         </assembly></instructions>
@@ -7934,7 +7850,7 @@
         <pt x="274" y="901" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 24 values pushed */
+          PUSH[ ]  /* 24 values pushed */
           0 2 0 0 2 0 85 0 3 3 1 81 0 1 1 20 3 66 22 53 40 18 4 18
           CALL[ ]
         </assembly></instructions>
@@ -7992,7 +7908,7 @@
         <pt x="821" y="935" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 56 values pushed */
+          PUSH[ ]  /* 56 values pushed */
           22 1 2 1 43 35 34 25 13 0 6 3 2 10 1 0 3 3 64 24 23 2 1 62 12
           11 2 0 61 0 2 2 1 81 0 1 1 15 65 0 3 3 0 81 0 0 0 21 0 66
           41 21 27 39 4 18
@@ -8049,7 +7965,7 @@
         <pt x="380" y="850" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 54 values pushed */
+          PUSH[ ]  /* 54 values pushed */
           10 7 2 4 2 23 11 6 3 3 4 3 1 0 3 3 64 9 1 2 62 0 4 4 2
           81 0 2 2 15 65 0 3 3 0 81 0 0 0 16 65 0 1 1 17 1 66 39 25 25
           18 17 5 19
@@ -8094,32 +8010,32 @@
         <pt x="256" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 7 values pushed */
+          PUSH[ ]  /* 7 values pushed */
           24 23 2 3 0 1 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           0 0 4 3 4 0 3 102 0 2 2 20 65 0 4 4 1 81 0 1 1 20 65 5 1
           3 3 13 3 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           24
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 26 values pushed */
+          PUSH[ ]  /* 26 values pushed */
           0 0 4 3 4 0 3 102 0 4 4 1 81 2 1 1 1 20 65 5 1 3 3 13 3
           66
           ELSE[ ]
-          NPUSHB[ ]  /* 30 values pushed */
+          PUSH[ ]  /* 30 values pushed */
           0 0 4 3 4 0 3 102 0 2 2 20 65 0 4 4 1 81 0 1 1 20 65 5 1
           3 3 13 3 66
           EIF[ ]
           EIF[ ]
-          PUSHB[ ]  /* 8 values pushed */
+          PUSH[ ]  /* 8 values pushed */
           17 19 25 35 38 18 6 20
           CALL[ ]
         </assembly></instructions>
@@ -8157,21 +8073,17 @@
         <pt x="261" y="65" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 14 values pushed */
+          PUSH[ ]  /* 14 values pushed */
           22 10 9 3 0 62 0 0 0 95 24 23 1 14
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
 
     <TTGlyph name="parenright" xMin="-22" yMin="-313" xMax="672" yMax="1747">
-      <component glyphName="parenleft" x="875" y="1428" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="parenleft" x="875" y="1428" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1428
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1428 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -8237,7 +8149,7 @@
         <pt x="662" y="919" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           53 42 13 1 2 38
           CALL[ ]
         </assembly></instructions>
@@ -8318,49 +8230,49 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 43 values pushed */
+          PUSH[ ]  /* 43 values pushed */
           0 3 0 4 5 3 4 89 0 5 0 2 8 5 2 89 0 6 0 8 9 6 8 90 0
           9 0 7 1 9 7 89 0 0 0 12 65 0 1 1 13 1 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           13
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 45 values pushed */
+          PUSH[ ]  /* 45 values pushed */
           0 5 0 2 8 5 2 89 0 6 0 8 9 6 8 90 0 9 0 7 1 9 7 89 0
           0 0 12 65 0 4 4 3 81 0 3 3 12 65 0 1 1 13 1 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           19
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 43 values pushed */
+          PUSH[ ]  /* 43 values pushed */
           0 3 0 4 5 3 4 89 0 5 0 2 8 5 2 89 0 6 0 8 9 6 8 90 0
           9 0 7 1 9 7 89 0 0 0 12 65 0 1 1 13 1 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 45 values pushed */
+          PUSH[ ]  /* 45 values pushed */
           0 5 0 2 8 5 2 89 0 6 0 8 9 6 8 90 0 9 0 7 1 9 7 89 0
           0 0 12 65 0 4 4 3 81 0 3 3 12 65 0 1 1 13 1 66
           ELSE[ ]
-          NPUSHB[ ]  /* 43 values pushed */
+          PUSH[ ]  /* 43 values pushed */
           0 3 0 4 5 3 4 89 0 5 0 2 8 5 2 89 0 6 0 8 9 6 8 90 0
           9 0 7 1 9 7 89 0 0 0 12 65 0 1 1 13 1 66
           EIF[ ]
           EIF[ ]
           EIF[ ]
           EIF[ ]
-          NPUSHB[ ]  /* 13 values pushed */
+          PUSH[ ]  /* 13 values pushed */
           58 57 36 36 40 22 37 39 18 17 16 10 23
           CALL[ ]
         </assembly></instructions>
@@ -8381,7 +8293,7 @@
         <pt x="335" y="55" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 15 values pushed */
+          PUSH[ ]  /* 15 values pushed */
           0 1 1 0 81 0 0 0 21 0 66 21 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -8390,12 +8302,8 @@
     <TTGlyph name="periodcentered" xMin="231" yMin="628" xMax="456" yMax="856">
       <component glyphName="period" x="120" y="646" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          646
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 646 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -8508,49 +8416,49 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 47 values pushed */
+          PUSH[ ]  /* 47 values pushed */
           0 7 0 8 9 7 8 89 0 9 0 6 2 9 6 89 10 1 0 12 1 2 3 0 2
           90 13 1 3 11 1 1 5 3 1 89 0 4 4 12 65 0 5 5 13 5 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           13
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 49 values pushed */
+          PUSH[ ]  /* 49 values pushed */
           0 9 0 6 2 9 6 89 10 1 0 12 1 2 3 0 2 90 13 1 3 11 1 1 5
           3 1 89 0 4 4 12 65 0 8 8 7 81 0 7 7 12 65 0 5 5 13 5 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           19
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 47 values pushed */
+          PUSH[ ]  /* 47 values pushed */
           0 7 0 8 9 7 8 89 0 9 0 6 2 9 6 89 10 1 0 12 1 2 3 0 2
           90 13 1 3 11 1 1 5 3 1 89 0 4 4 12 65 0 5 5 13 5 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 49 values pushed */
+          PUSH[ ]  /* 49 values pushed */
           0 9 0 6 2 9 6 89 10 1 0 12 1 2 3 0 2 90 13 1 3 11 1 1 5
           3 1 89 0 4 4 12 65 0 8 8 7 81 0 7 7 12 65 0 5 5 13 5 66
           ELSE[ ]
-          NPUSHB[ ]  /* 47 values pushed */
+          PUSH[ ]  /* 47 values pushed */
           0 7 0 8 9 7 8 89 0 9 0 6 2 9 6 89 10 1 0 12 1 2 3 0 2
           90 13 1 3 11 1 1 5 3 1 89 0 4 4 12 65 0 5 5 13 5 66
           EIF[ ]
           EIF[ ]
           EIF[ ]
           EIF[ ]
-          NPUSHB[ ]  /* 21 values pushed */
+          PUSH[ ]  /* 21 values pushed */
           87 86 80 78 74 72 68 66 58 57 37 39 18 17 20 22 36 36 36 14 23
           CALL[ ]
         </assembly></instructions>
@@ -8619,22 +8527,22 @@
         <pt x="273" y="-26" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 19 values pushed */
+          PUSH[ ]  /* 19 values pushed */
           11 10 2 5 0 30 1 4 5 0 1 6 4 3 64 58 1 6 61
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           24
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 36 values pushed */
+          PUSH[ ]  /* 36 values pushed */
           0 2 1 2 104 0 5 0 4 0 5 4 102 7 3 2 0 0 1 81 0 1 1 15 65
           0 4 4 6 81 0 6 6 16 6 66
           ELSE[ ]
-          NPUSHB[ ]  /* 34 values pushed */
+          PUSH[ ]  /* 34 values pushed */
           0 2 1 2 104 0 5 0 4 0 5 4 102 0 1 7 3 2 0 5 1 0 89 0 4
           4 6 81 0 6 6 16 6 66
           EIF[ ]
-          NPUSHB[ ]  /* 10 values pushed */
+          PUSH[ ]  /* 10 values pushed */
           24 35 20 23 35 19 55 37 8 22
           CALL[ ]
         </assembly></instructions>
@@ -8668,7 +8576,7 @@
         <pt x="580" y="295" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 43 values pushed */
+          PUSH[ ]  /* 43 values pushed */
           21 1 5 0 1 64 0 2 1 2 104 0 5 0 5 105 3 1 1 0 0 1 75 3 1
           1 1 0 80 4 1 0 1 0 68 22 33 34 18 33 33 6 20
           CALL[ ]
@@ -8714,7 +8622,7 @@
         <pt x="180" y="30" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 54 values pushed */
+          PUSH[ ]  /* 54 values pushed */
           11 1 1 2 26 1 5 0 2 64 0 2 1 2 104 0 5 0 6 0 5 6 102 3 1
           1 4 1 0 5 1 0 88 0 6 6 7 79 0 7 7 13 7 66 17 17 23 33 34 22
           33 33 8 22
@@ -8746,7 +8654,7 @@
         <pt x="152" y="-104" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           9 3 1 38
           CALL[ ]
         </assembly></instructions>
@@ -8810,7 +8718,7 @@
         <pt x="841" y="996" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 62 values pushed */
+          PUSH[ ]  /* 62 values pushed */
           16 14 2 4 1 49 47 46 32 0 5 5 4 23 22 2 2 0 3 64 0 2 0 3 0
           2 3 102 0 4 4 1 81 0 1 1 15 65 0 5 5 0 81 0 0 0 16 65 0 3
           3 17 3 66 39 21 37 38 40 33 6 20
@@ -8878,7 +8786,7 @@
         <pt x="419" y="210" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 54 values pushed */
+          PUSH[ ]  /* 54 values pushed */
           40 18 2 2 0 1 64 5 1 2 0 3 0 2 3 102 0 1 0 0 2 1 0 89 6
           1 3 3 4 81 0 4 4 21 4 66 43 42 0 0 48 47 42 53 43 53 0 41 0 41
           37 47 7 16
@@ -8943,7 +8851,7 @@
         <pt x="601" y="565" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 46 values pushed */
+          PUSH[ ]  /* 46 values pushed */
           35 15 2 2 0 1 64 0 1 4 1 0 2 1 0 89 0 2 3 3 2 77 0 2 2
           3 81 0 3 2 3 69 1 0 41 39 34 32 6 5 0 11 1 11 5 14
           CALL[ ]
@@ -8956,22 +8864,14 @@
     </TTGlyph>
 
     <TTGlyph name="quotedblbase" xMin="46" yMin="-503" xMax="940" yMax="281">
-      <component glyphName="quoteleft" x="678" y="1218" scale="-0.999938964844" flags="0x1004"/>
-      <component glyphName="quoteleft" x="1157" y="1218" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="quoteleft" x="678" y="1218" scale="-0.99997" flags="0x1004"/>
+      <component glyphName="quoteleft" x="1157" y="1218" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1218
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1218 41
           CALL[ ]
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          1218
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 1218 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -8982,22 +8882,14 @@
     </TTGlyph>
 
     <TTGlyph name="quotedblright" xMin="230" yMin="935" xMax="1124" yMax="1720">
-      <component glyphName="quoteleft" x="1341" y="2657" scale="-0.999938964844" flags="0x1004"/>
-      <component glyphName="quoteleft" x="862" y="2657" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="quoteleft" x="1341" y="2657" scale="-0.99997" flags="0x1004"/>
+      <component glyphName="quoteleft" x="862" y="2657" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          2657
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 2657 41
           CALL[ ]
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          2657
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 2657 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -9026,7 +8918,7 @@
         <pt x="511" y="1055" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           8 0 1 38
           CALL[ ]
         </assembly></instructions>
@@ -9056,34 +8948,26 @@
         <pt x="502" y="993" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           8 0 1 38
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
 
     <TTGlyph name="quoteright" xMin="230" yMin="935" xMax="645" yMax="1720">
-      <component glyphName="quoteleft" x="862" y="2657" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="quoteleft" x="862" y="2657" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          2657
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 2657 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
 
     <TTGlyph name="quotesinglbase" xMin="46" yMin="-503" xMax="461" yMax="281">
-      <component glyphName="quoteleft" x="678" y="1218" scale="-0.999938964844" flags="0x1004"/>
+      <component glyphName="quoteleft" x="678" y="1218" scale="-0.99997" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          1218
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 1218 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -9097,17 +8981,17 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           24
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 11 values pushed */
+          PUSH[ ]  /* 11 values pushed */
           0 1 1 0 79 0 0 0 14 1 66
           ELSE[ ]
-          NPUSHB[ ]  /* 16 values pushed */
+          PUSH[ ]  /* 16 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67
           EIF[ ]
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -9138,7 +9022,7 @@
         <pt x="133" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 39 values pushed */
+          PUSH[ ]  /* 39 values pushed */
           11 4 1 0 4 1 0 12 5 2 2 1 2 64 3 1 0 62 0 1 1 0 81 0 0
           0 15 65 0 2 2 13 2 66 21 19 40 3 17
           CALL[ ]
@@ -9168,7 +9052,7 @@
         <pt x="129" y="490" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           6 4 1 38
           CALL[ ]
         </assembly></instructions>
@@ -9287,7 +9171,7 @@
         <pt x="1144" y="924" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 84 values pushed */
+          PUSH[ ]  /* 84 values pushed */
           74 1 9 8 86 85 73 3 10 9 48 1 6 10 72 67 2 4 6 71 68 2 5 4 5
           64 0 8 0 9 10 8 9 89 0 10 0 6 4 10 6 87 0 4 7 1 5 2 4 5
           89 0 2 0 1 2 1 85 0 3 3 0 81 0 0 0 20 3 66 90 87 84 82 53 19
@@ -9332,7 +9216,7 @@
         <pt x="225" y="1405" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 39 values pushed */
+          PUSH[ ]  /* 39 values pushed */
           0 1 0 3 2 1 3 89 0 2 0 0 2 77 0 2 2 0 81 4 1 0 2 0 69
           1 0 25 23 16 15 8 7 0 13 1 13 5 14
           CALL[ ]
@@ -9376,7 +9260,7 @@
         <pt x="174" y="1690" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           25 17 7 0 2 38
           CALL[ ]
         </assembly></instructions>
@@ -9429,7 +9313,7 @@
         <pt x="25" y="43" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 42 values pushed */
+          PUSH[ ]  /* 42 values pushed */
           21 1 2 1 22 0 2 0 2 42 1 3 0 3 64 0 2 2 1 81 0 1 1 15 65
           0 0 0 3 81 0 3 3 16 3 66 43 22 46 33 4 18
           CALL[ ]
@@ -9510,7 +9394,7 @@
         <pt x="41" y="-436" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 61 values pushed */
+          PUSH[ ]  /* 61 values pushed */
           33 1 4 3 34 12 2 2 4 50 11 2 1 2 0 1 0 1 59 1 5 0 5 64 0
           0 0 5 0 5 85 0 4 4 3 81 0 3 3 15 65 0 2 2 1 81 0 1 1 16
           1 66 58 56 22 46 37 36 17 6 19
@@ -9620,7 +9504,7 @@
         <pt x="442" y="1003" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 61 values pushed */
+          PUSH[ ]  /* 61 values pushed */
           49 1 5 3 77 68 37 0 4 1 4 12 1 0 2 3 64 0 4 5 1 5 4 1 102
           0 1 2 5 1 2 100 0 2 0 0 2 0 85 0 5 5 3 81 0 3 3 14 5 66
           55 53 51 50 45 44 20 21 23 6 17
@@ -9632,12 +9516,8 @@
       <component glyphName="comma" x="0" y="0" flags="0x1004"/>
       <component glyphName="period" x="75" y="809" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          809
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 809 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -9655,20 +9535,20 @@
         <pt x="259" y="-262" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           8 1 1 61
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           11
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 17 values pushed */
+          PUSH[ ]  /* 17 values pushed */
           0 1 0 0 1 93 0 0 0 2 79 0 2 2 15 0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 16 values pushed */
+          PUSH[ ]  /* 16 values pushed */
           0 1 0 1 105 0 0 0 2 79 0 2 2 15 0 66
           EIF[ ]
-          PUSHB[ ]  /* 5 values pushed */
+          PUSH[ ]  /* 5 values pushed */
           17 17 16 3 17
           CALL[ ]
         </assembly></instructions>
@@ -9725,7 +9605,7 @@
         <pt x="408" y="763" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 38 values pushed */
+          PUSH[ ]  /* 38 values pushed */
           0 1 2 3 1 64 23 22 2 0 62 0 0 0 3 2 0 3 89 0 2 2 1 81 0
           1 1 16 1 66 41 40 34 32 24 33 4 16
           CALL[ ]
@@ -9741,35 +9621,35 @@
       </contour>
       <instructions><assembly>
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           13
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 12 values pushed */
+          PUSH[ ]  /* 12 values pushed */
           2 1 1 0 1 105 0 0 0 14 0 66
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           15
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 10 values pushed */
+          PUSH[ ]  /* 10 values pushed */
           0 0 1 0 104 2 1 1 1 95
           ELSE[ ]
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           21
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 12 values pushed */
+          PUSH[ ]  /* 12 values pushed */
           2 1 1 0 1 105 0 0 0 14 0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 10 values pushed */
+          PUSH[ ]  /* 10 values pushed */
           0 0 1 0 104 2 1 1 1 95
           EIF[ ]
           EIF[ ]
           EIF[ ]
-          NPUSHB[ ]  /* 9 values pushed */
+          PUSH[ ]  /* 9 values pushed */
           0 0 0 3 0 3 17 3 15
           CALL[ ]
         </assembly></instructions>
@@ -9850,7 +9730,7 @@
         <pt x="113" y="-16" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 87 values pushed */
+          PUSH[ ]  /* 87 values pushed */
           22 1 5 4 23 1 3 5 55 54 2 1 2 65 43 2 8 1 4 64 0 1 2 8 2
           1 8 102 6 1 3 7 1 2 1 3 2 87 0 5 5 4 81 0 4 4 20 65 0 8
           8 0 81 9 10 2 0 0 21 0 66 1 0 61 60 49 47 37 36 35 34 27 26 20 18
@@ -9879,7 +9759,7 @@
         <pt x="230" y="-129" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           13 2 1 38
           CALL[ ]
         </assembly></instructions>
@@ -9921,22 +9801,22 @@
         <pt x="404" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 7 values pushed */
+          PUSH[ ]  /* 7 values pushed */
           28 27 2 5 1 1 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           10
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 29 values pushed */
+          PUSH[ ]  /* 29 values pushed */
           0 2 3 3 2 92 4 1 1 1 3 79 0 3 3 15 65 0 5 5 0 81 6 1 0
           0 16 0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           0 2 3 2 104 4 1 1 1 3 79 0 3 3 15 65 0 5 5 0 81 6 1 0 0
           16 0 66
           EIF[ ]
-          NPUSHB[ ]  /* 18 values pushed */
+          PUSH[ ]  /* 18 values pushed */
           1 0 23 22 16 15 14 13 12 11 7 6 0 31 1 31 7 14
           CALL[ ]
         </assembly></instructions>
@@ -9986,22 +9866,22 @@
         <pt x="404" y="-20" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 7 values pushed */
+          PUSH[ ]  /* 7 values pushed */
           36 35 2 9 1 1 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           10
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 39 values pushed */
+          PUSH[ ]  /* 39 values pushed */
           0 4 5 5 4 92 7 1 2 8 1 1 9 2 1 87 6 1 3 3 5 79 0 5 5
           15 65 0 9 9 0 81 10 1 0 0 16 0 66
           ELSE[ ]
-          NPUSHB[ ]  /* 38 values pushed */
+          PUSH[ ]  /* 38 values pushed */
           0 4 5 4 104 7 1 2 8 1 1 9 2 1 87 6 1 3 3 5 79 0 5 5 15
           65 0 9 9 0 81 10 1 0 0 16 0 66
           EIF[ ]
-          NPUSHB[ ]  /* 26 values pushed */
+          PUSH[ ]  /* 26 values pushed */
           1 0 31 30 24 23 22 21 20 19 18 17 16 15 11 10 9 8 7 6 0 39 1 39 11
           14
           CALL[ ]
@@ -10012,12 +9892,8 @@
       <component glyphName="t" x="0" y="0" flags="0x1004"/>
       <component glyphName="caronvertical" x="450" y="210" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHB[ ]  /* 1 value pushed */
-          210
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 210 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -10067,7 +9943,7 @@
         <pt x="362" y="826" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 51 values pushed */
+          PUSH[ ]  /* 51 values pushed */
           24 12 2 3 4 3 1 0 3 2 64 11 10 8 7 4 2 62 0 4 4 2 81 0 2
           2 15 65 0 3 3 0 81 0 0 0 16 65 0 1 1 17 1 66 39 25 26 18 17 5
           19
@@ -10129,7 +10005,7 @@
         <pt x="56" y="-315" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 50 values pushed */
+          PUSH[ ]  /* 50 values pushed */
           25 24 2 4 2 13 0 2 0 1 49 1 5 0 3 64 0 4 0 1 0 4 1 89 0
           0 0 5 0 5 85 0 2 2 3 81 0 3 3 15 2 66 40 24 21 45 21 17 6 20
           CALL[ ]
@@ -10141,12 +10017,8 @@
       <component glyphName="threesuperior" x="77" y="0" flags="0x1004"/>
       <component glyphName="fraction" x="771" y="0" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          -650
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 -650 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -10201,7 +10073,7 @@
         <pt x="319" y="1455" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 55 values pushed */
+          PUSH[ ]  /* 55 values pushed */
           45 0 2 1 5 33 23 2 3 4 22 1 2 3 3 64 0 4 1 3 1 4 3 102 0
           3 0 2 3 2 85 0 5 5 0 81 0 0 0 14 65 0 1 1 15 1 66 40 21 38
           24 21 33 6 20
@@ -10241,7 +10113,7 @@
         <pt x="294" y="1520" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 48 values pushed */
+          PUSH[ ]  /* 48 values pushed */
           18 17 2 0 1 3 2 2 3 2 2 64 4 1 0 0 1 81 0 1 1 14 65 0 3
           3 2 81 0 2 2 12 3 66 1 0 22 21 13 12 7 6 0 27 1 27 5 14
           CALL[ ]
@@ -10279,7 +10151,7 @@
         <pt x="281" y="1834" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           21 6 1 38
           CALL[ ]
         </assembly></instructions>
@@ -10333,7 +10205,7 @@
         <pt x="220" y="754" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           40 32 19 4 2 38
           CALL[ ]
         </assembly></instructions>
@@ -10371,7 +10243,7 @@
         <pt x="754" y="1052" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 45 values pushed */
+          PUSH[ ]  /* 45 values pushed */
           18 17 3 2 4 2 0 1 64 4 1 0 0 1 81 0 1 1 15 65 0 2 2 3 79
           0 3 3 13 3 66 1 0 20 19 16 15 7 6 0 27 1 27 5 14
           CALL[ ]
@@ -10414,7 +10286,7 @@
         <pt x="759" y="1542" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 46 values pushed */
+          PUSH[ ]  /* 46 values pushed */
           20 19 3 2 4 2 0 23 1 3 2 2 64 0 2 0 3 2 3 83 4 1 0 0 1
           81 0 1 1 14 0 66 1 0 22 21 18 17 8 6 0 31 1 31 5 14
           CALL[ ]
@@ -10468,7 +10340,7 @@
         <pt x="778" y="152" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 44 values pushed */
+          PUSH[ ]  /* 44 values pushed */
           34 33 14 11 10 0 6 1 2 1 64 13 1 2 62 0 2 2 15 65 3 1 1 1 0
           81 4 1 0 0 16 0 66 38 37 32 30 28 27 22 21 33 5 15
           CALL[ ]
@@ -10518,7 +10390,7 @@
         <pt x="-95" y="-218" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           2 1 1 0 0 1 75 2 1 1 1 0 79 0 0 1 0 67 0 0 0 3 0 3 17
           3 15
           CALL[ ]
@@ -10590,7 +10462,7 @@
         <pt x="206" y="-434" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 59 values pushed */
+          PUSH[ ]  /* 59 values pushed */
           20 1 1 3 0 1 0 1 32 1 8 0 3 64 5 1 3 2 1 2 3 1 102 0 0
           0 8 0 8 85 6 1 2 2 4 79 0 4 4 12 65 7 1 1 1 13 1 66 38 19
           17 17 17 17 19 20 17 9 23
@@ -10652,22 +10524,22 @@
         <pt x="-17" y="-436" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 17 values pushed */
+          PUSH[ ]  /* 17 values pushed */
           36 35 2 5 1 40 4 0 3 0 5 49 1 6 0 3 64
           MPPEM[ ]
-          PUSHB[ ]  /* 1 value pushed */
+          PUSH[ ]
           10
           LT[ ]
           IF[ ]
-          NPUSHB[ ]  /* 33 values pushed */
+          PUSH[ ]  /* 33 values pushed */
           0 2 3 3 2 92 0 5 1 0 1 5 0 102 0 0 0 6 0 6 85 4 1 1 1
           3 79 0 3 3 15 1 66
           ELSE[ ]
-          NPUSHB[ ]  /* 32 values pushed */
+          PUSH[ ]  /* 32 values pushed */
           0 2 3 2 104 0 5 1 0 1 5 0 102 0 0 0 6 0 6 85 4 1 1 1 3
           79 0 3 3 15 1 66
           EIF[ ]
-          NPUSHB[ ]  /* 9 values pushed */
+          PUSH[ ]  /* 9 values pushed */
           47 22 17 17 20 28 17 7 21
           CALL[ ]
         </assembly></instructions>
@@ -10701,7 +10573,7 @@
         <pt x="50" y="1756" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 20 values pushed */
+          PUSH[ ]  /* 20 values pushed */
           0 0 1 1 0 75 0 0 0 1 79 0 1 0 1 67 17 16 2 16
           CALL[ ]
         </assembly></instructions>
@@ -10748,12 +10620,8 @@
       <component glyphName="f" x="0" y="0" flags="0x1204"/>
       <component glyphName="dotaccent" x="253" y="298" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHW[ ]  /* 1 value pushed */
-          298
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 298 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -10797,12 +10665,8 @@
       <component glyphName="t" x="0" y="0" flags="0x1204"/>
       <component glyphName="dotaccent" x="254" y="105" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          1 1
-          PUSHB[ ]  /* 1 value pushed */
-          105
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          1 1 105 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -10866,7 +10730,7 @@
         <pt x="398" y="449" on="0"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 6 values pushed */
+          PUSH[ ]  /* 6 values pushed */
           44 37 30 9 2 38
           CALL[ ]
         </assembly></instructions>
@@ -10880,7 +10744,7 @@
         <pt x="-20" y="-363" on="1"/>
       </contour>
       <instructions><assembly>
-          PUSHB[ ]  /* 4 values pushed */
+          PUSH[ ]  /* 4 values pushed */
           2 0 1 38
           CALL[ ]
         </assembly></instructions>
@@ -10889,12 +10753,8 @@
     <TTGlyph name="uni2219" xMin="231" yMin="628" xMax="456" yMax="856">
       <component glyphName="period" x="120" y="646" flags="0x1004"/>
       <instructions><assembly>
-          PUSHB[ ]  /* 2 values pushed */
-          0 1
-          PUSHW[ ]  /* 1 value pushed */
-          646
-          PUSHB[ ]  /* 1 value pushed */
-          41
+          PUSH[ ]  /* 4 values pushed */
+          0 1 646 41
           CALL[ ]
         </assembly></instructions>
     </TTGlyph>
@@ -10966,7 +10826,7 @@
         <pt x="778" y="152" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 64 values pushed */
+          PUSH[ ]  /* 64 values pushed */
           34 33 14 11 10 0 6 1 2 57 1 0 1 46 1 4 0 47 1 5 4 4 64 13 1
           2 62 0 4 0 5 4 5 85 0 2 2 15 65 3 1 1 1 0 81 0 0 0 16 0
           66 50 48 45 43 32 30 28 27 22 21 33 6 15
@@ -11024,7 +10884,7 @@
         <pt x="452" y="-9" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 28 values pushed */
+          PUSH[ ]  /* 28 values pushed */
           8 1 0 1 1 64 18 7 2 0 61 0 0 1 0 105 2 1 1 1 15 1 66 30 39
           34 3 17
           CALL[ ]
@@ -11082,7 +10942,7 @@
         <pt x="324" y="-20" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 35 values pushed */
+          PUSH[ ]  /* 35 values pushed */
           8 1 0 1 1 64 42 41 23 22 18 17 7 7 0 61 0 0 1 0 105 3 2 2 1
           1 15 1 66 43 24 23 19 4 18
           CALL[ ]
@@ -11150,7 +11010,7 @@
         <pt x="794" y="85" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 59 values pushed */
+          PUSH[ ]  /* 59 values pushed */
           33 30 21 20 15 12 3 2 8 0 3 1 64 0 3 3 4 81 5 1 4 4 15 65 0
           2 2 13 65 6 1 0 0 1 81 0 1 1 16 1 66 1 0 32 31 26 24 19 18 14
           13 8 6 0 36 1 36 7 14
@@ -11217,7 +11077,7 @@
         <pt x="862" y="1162" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 63 values pushed */
+          PUSH[ ]  /* 63 values pushed */
           42 32 31 3 3 4 15 1 1 2 2 64 0 4 0 3 0 4 3 102 0 3 2 0 3
           2 100 5 6 2 0 0 15 65 0 2 2 1 81 0 1 1 17 1 66 1 0 36 35 30
           29 26 25 21 20 11 10 0 54 1 54 7 14
@@ -11281,7 +11141,7 @@
         <pt x="383" y="0" on="1"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 61 values pushed */
+          PUSH[ ]  /* 61 values pushed */
           20 19 17 15 11 5 3 4 33 1 10 0 2 64 6 1 3 7 1 2 1 3 2 88 8
           1 1 9 1 0 10 1 0 87 5 1 4 4 12 65 0 10 10 13 10 66 36 35 32 31
           17 17 19 24 19 17 17 17 18 11 23
@@ -11351,7 +11211,7 @@
         <pt x="99" y="13" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 70 values pushed */
+          PUSH[ ]  /* 70 values pushed */
           1 1 7 4 1 64 28 1 2 62 0 1 6 61 0 1 0 5 0 1 5 102 0 5 4
           0 5 4 100 0 3 3 15 65 0 0 0 2 81 0 2 2 15 65 0 7 7 13 65 0
           4 4 6 81 0 6 6 16 6 66 19 35 17 152 19 23 21 51 8 22
@@ -11413,7 +11273,7 @@
         <pt x="985" y="446" on="0"/>
       </contour>
       <instructions><assembly>
-          NPUSHB[ ]  /* 27 values pushed */
+          PUSH[ ]  /* 27 values pushed */
           0 2 2 0 81 0 0 0 15 65 0 3 3 1 81 0 1 1 21 1 66 40 35 24 21
           4 18
           CALL[ ]
