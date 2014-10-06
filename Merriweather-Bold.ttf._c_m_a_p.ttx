@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ttFont ttLibVersion="2.4">
 
   <cmap>
     <tableVersion version="0"/>
     <cmap_format_4 platformID="0" platEncID="3" language="0">
-      <map code="0x0" name="uni0000"/><!-- &lt;control> -->
-      <map code="0x1" name="uni0001"/><!-- &lt;control> -->
-      <map code="0x2" name="uni0002"/><!-- &lt;control> -->
-      <map code="0x3" name="uni0003"/><!-- &lt;control> -->
-      <map code="0x4" name="uni0004"/><!-- &lt;control> -->
-      <map code="0x5" name="uni0005"/><!-- &lt;control> -->
-      <map code="0x6" name="uni0006"/><!-- &lt;control> -->
-      <map code="0x7" name="uni0007"/><!-- &lt;control> -->
-      <map code="0x8" name="uni0008"/><!-- &lt;control> -->
-      <map code="0x9" name="uni0009"/><!-- &lt;control> -->
-      <map code="0xa" name="uni000A"/><!-- &lt;control> -->
-      <map code="0xb" name="uni000B"/><!-- &lt;control> -->
-      <map code="0xc" name="uni000C"/><!-- &lt;control> -->
-      <map code="0xd" name="uni000D"/><!-- &lt;control> -->
-      <map code="0xe" name="uni000E"/><!-- &lt;control> -->
-      <map code="0xf" name="uni000F"/><!-- &lt;control> -->
-      <map code="0x10" name="uni0010"/><!-- &lt;control> -->
-      <map code="0x11" name="uni0011"/><!-- &lt;control> -->
-      <map code="0x12" name="uni0012"/><!-- &lt;control> -->
-      <map code="0x13" name="uni0013"/><!-- &lt;control> -->
-      <map code="0x14" name="uni0014"/><!-- &lt;control> -->
-      <map code="0x15" name="uni0015"/><!-- &lt;control> -->
-      <map code="0x16" name="uni0016"/><!-- &lt;control> -->
-      <map code="0x17" name="uni0017"/><!-- &lt;control> -->
-      <map code="0x18" name="uni0018"/><!-- &lt;control> -->
-      <map code="0x19" name="uni0019"/><!-- &lt;control> -->
-      <map code="0x1a" name="uni001A"/><!-- &lt;control> -->
-      <map code="0x1b" name="uni001B"/><!-- &lt;control> -->
-      <map code="0x1c" name="uni001C"/><!-- &lt;control> -->
-      <map code="0x1d" name="uni001D"/><!-- &lt;control> -->
-      <map code="0x1e" name="uni001E"/><!-- &lt;control> -->
-      <map code="0x1f" name="uni001F"/><!-- &lt;control> -->
+      <map code="0x0" name="uni0000"/><!-- ???? -->
+      <map code="0x1" name="uni0001"/><!-- ???? -->
+      <map code="0x2" name="uni0002"/><!-- ???? -->
+      <map code="0x3" name="uni0003"/><!-- ???? -->
+      <map code="0x4" name="uni0004"/><!-- ???? -->
+      <map code="0x5" name="uni0005"/><!-- ???? -->
+      <map code="0x6" name="uni0006"/><!-- ???? -->
+      <map code="0x7" name="uni0007"/><!-- ???? -->
+      <map code="0x8" name="uni0008"/><!-- ???? -->
+      <map code="0x9" name="uni0009"/><!-- ???? -->
+      <map code="0xa" name="uni000A"/><!-- ???? -->
+      <map code="0xb" name="uni000B"/><!-- ???? -->
+      <map code="0xc" name="uni000C"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0xe" name="uni000E"/><!-- ???? -->
+      <map code="0xf" name="uni000F"/><!-- ???? -->
+      <map code="0x10" name="uni0010"/><!-- ???? -->
+      <map code="0x11" name="uni0011"/><!-- ???? -->
+      <map code="0x12" name="uni0012"/><!-- ???? -->
+      <map code="0x13" name="uni0013"/><!-- ???? -->
+      <map code="0x14" name="uni0014"/><!-- ???? -->
+      <map code="0x15" name="uni0015"/><!-- ???? -->
+      <map code="0x16" name="uni0016"/><!-- ???? -->
+      <map code="0x17" name="uni0017"/><!-- ???? -->
+      <map code="0x18" name="uni0018"/><!-- ???? -->
+      <map code="0x19" name="uni0019"/><!-- ???? -->
+      <map code="0x1a" name="uni001A"/><!-- ???? -->
+      <map code="0x1b" name="uni001B"/><!-- ???? -->
+      <map code="0x1c" name="uni001C"/><!-- ???? -->
+      <map code="0x1d" name="uni001D"/><!-- ???? -->
+      <map code="0x1e" name="uni001E"/><!-- ???? -->
+      <map code="0x1f" name="uni001F"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x22" name="quotedbl"/><!-- QUOTATION MARK -->
@@ -131,7 +131,7 @@
       <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
       <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
       <map code="0x7e" name="asciitilde"/><!-- TILDE -->
-      <map code="0x7f" name="uni007F"/><!-- &lt;control> -->
+      <map code="0x7f" name="uni007F"/><!-- ???? -->
       <map code="0xa0" name="nonbreakingspace"/><!-- NO-BREAK SPACE -->
       <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
       <map code="0xa2" name="cent"/><!-- CENT SIGN -->
@@ -585,38 +585,38 @@
       <map code="0xff" name="caron"/>
     </cmap_format_6>
     <cmap_format_4 platformID="3" platEncID="1" language="0">
-      <map code="0x0" name="uni0000"/><!-- &lt;control> -->
-      <map code="0x1" name="uni0001"/><!-- &lt;control> -->
-      <map code="0x2" name="uni0002"/><!-- &lt;control> -->
-      <map code="0x3" name="uni0003"/><!-- &lt;control> -->
-      <map code="0x4" name="uni0004"/><!-- &lt;control> -->
-      <map code="0x5" name="uni0005"/><!-- &lt;control> -->
-      <map code="0x6" name="uni0006"/><!-- &lt;control> -->
-      <map code="0x7" name="uni0007"/><!-- &lt;control> -->
-      <map code="0x8" name="uni0008"/><!-- &lt;control> -->
-      <map code="0x9" name="uni0009"/><!-- &lt;control> -->
-      <map code="0xa" name="uni000A"/><!-- &lt;control> -->
-      <map code="0xb" name="uni000B"/><!-- &lt;control> -->
-      <map code="0xc" name="uni000C"/><!-- &lt;control> -->
-      <map code="0xd" name="uni000D"/><!-- &lt;control> -->
-      <map code="0xe" name="uni000E"/><!-- &lt;control> -->
-      <map code="0xf" name="uni000F"/><!-- &lt;control> -->
-      <map code="0x10" name="uni0010"/><!-- &lt;control> -->
-      <map code="0x11" name="uni0011"/><!-- &lt;control> -->
-      <map code="0x12" name="uni0012"/><!-- &lt;control> -->
-      <map code="0x13" name="uni0013"/><!-- &lt;control> -->
-      <map code="0x14" name="uni0014"/><!-- &lt;control> -->
-      <map code="0x15" name="uni0015"/><!-- &lt;control> -->
-      <map code="0x16" name="uni0016"/><!-- &lt;control> -->
-      <map code="0x17" name="uni0017"/><!-- &lt;control> -->
-      <map code="0x18" name="uni0018"/><!-- &lt;control> -->
-      <map code="0x19" name="uni0019"/><!-- &lt;control> -->
-      <map code="0x1a" name="uni001A"/><!-- &lt;control> -->
-      <map code="0x1b" name="uni001B"/><!-- &lt;control> -->
-      <map code="0x1c" name="uni001C"/><!-- &lt;control> -->
-      <map code="0x1d" name="uni001D"/><!-- &lt;control> -->
-      <map code="0x1e" name="uni001E"/><!-- &lt;control> -->
-      <map code="0x1f" name="uni001F"/><!-- &lt;control> -->
+      <map code="0x0" name="uni0000"/><!-- ???? -->
+      <map code="0x1" name="uni0001"/><!-- ???? -->
+      <map code="0x2" name="uni0002"/><!-- ???? -->
+      <map code="0x3" name="uni0003"/><!-- ???? -->
+      <map code="0x4" name="uni0004"/><!-- ???? -->
+      <map code="0x5" name="uni0005"/><!-- ???? -->
+      <map code="0x6" name="uni0006"/><!-- ???? -->
+      <map code="0x7" name="uni0007"/><!-- ???? -->
+      <map code="0x8" name="uni0008"/><!-- ???? -->
+      <map code="0x9" name="uni0009"/><!-- ???? -->
+      <map code="0xa" name="uni000A"/><!-- ???? -->
+      <map code="0xb" name="uni000B"/><!-- ???? -->
+      <map code="0xc" name="uni000C"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0xe" name="uni000E"/><!-- ???? -->
+      <map code="0xf" name="uni000F"/><!-- ???? -->
+      <map code="0x10" name="uni0010"/><!-- ???? -->
+      <map code="0x11" name="uni0011"/><!-- ???? -->
+      <map code="0x12" name="uni0012"/><!-- ???? -->
+      <map code="0x13" name="uni0013"/><!-- ???? -->
+      <map code="0x14" name="uni0014"/><!-- ???? -->
+      <map code="0x15" name="uni0015"/><!-- ???? -->
+      <map code="0x16" name="uni0016"/><!-- ???? -->
+      <map code="0x17" name="uni0017"/><!-- ???? -->
+      <map code="0x18" name="uni0018"/><!-- ???? -->
+      <map code="0x19" name="uni0019"/><!-- ???? -->
+      <map code="0x1a" name="uni001A"/><!-- ???? -->
+      <map code="0x1b" name="uni001B"/><!-- ???? -->
+      <map code="0x1c" name="uni001C"/><!-- ???? -->
+      <map code="0x1d" name="uni001D"/><!-- ???? -->
+      <map code="0x1e" name="uni001E"/><!-- ???? -->
+      <map code="0x1f" name="uni001F"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x22" name="quotedbl"/><!-- QUOTATION MARK -->
@@ -712,7 +712,7 @@
       <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
       <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
       <map code="0x7e" name="asciitilde"/><!-- TILDE -->
-      <map code="0x7f" name="uni007F"/><!-- &lt;control> -->
+      <map code="0x7f" name="uni007F"/><!-- ???? -->
       <map code="0xa0" name="nonbreakingspace"/><!-- NO-BREAK SPACE -->
       <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
       <map code="0xa2" name="cent"/><!-- CENT SIGN -->

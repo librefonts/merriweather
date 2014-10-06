@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ttFont ttLibVersion="2.4">
 
   <cmap>
     <tableVersion version="0"/>
     <cmap_format_4 platformID="0" platEncID="3" language="0">
-      <map code="0x1" name="uni0001"/><!-- &lt;control> -->
-      <map code="0x2" name="uni0002"/><!-- &lt;control> -->
-      <map code="0x3" name="uni0003"/><!-- &lt;control> -->
-      <map code="0x4" name="uni0004"/><!-- &lt;control> -->
-      <map code="0x5" name="uni0005"/><!-- &lt;control> -->
-      <map code="0x6" name="uni0006"/><!-- &lt;control> -->
-      <map code="0x7" name="uni0007"/><!-- &lt;control> -->
-      <map code="0x8" name="uni0008"/><!-- &lt;control> -->
-      <map code="0x9" name="HT"/><!-- &lt;control> -->
-      <map code="0xa" name="LF"/><!-- &lt;control> -->
-      <map code="0x10" name="DLE"/><!-- &lt;control> -->
-      <map code="0x11" name="DC1"/><!-- &lt;control> -->
-      <map code="0x12" name="DC2"/><!-- &lt;control> -->
-      <map code="0x13" name="DC3"/><!-- &lt;control> -->
-      <map code="0x14" name="DC4"/><!-- &lt;control> -->
-      <map code="0x15" name="uni0015"/><!-- &lt;control> -->
-      <map code="0x16" name="uni0016"/><!-- &lt;control> -->
-      <map code="0x17" name="uni0017"/><!-- &lt;control> -->
-      <map code="0x18" name="uni0018"/><!-- &lt;control> -->
-      <map code="0x19" name="uni0019"/><!-- &lt;control> -->
-      <map code="0x1e" name="RS"/><!-- &lt;control> -->
-      <map code="0x1f" name="US"/><!-- &lt;control> -->
+      <map code="0x1" name="uni0001"/><!-- ???? -->
+      <map code="0x2" name="uni0002"/><!-- ???? -->
+      <map code="0x3" name="uni0003"/><!-- ???? -->
+      <map code="0x4" name="uni0004"/><!-- ???? -->
+      <map code="0x5" name="uni0005"/><!-- ???? -->
+      <map code="0x6" name="uni0006"/><!-- ???? -->
+      <map code="0x7" name="uni0007"/><!-- ???? -->
+      <map code="0x8" name="uni0008"/><!-- ???? -->
+      <map code="0x9" name="HT"/><!-- ???? -->
+      <map code="0xa" name="LF"/><!-- ???? -->
+      <map code="0x10" name="DLE"/><!-- ???? -->
+      <map code="0x11" name="DC1"/><!-- ???? -->
+      <map code="0x12" name="DC2"/><!-- ???? -->
+      <map code="0x13" name="DC3"/><!-- ???? -->
+      <map code="0x14" name="DC4"/><!-- ???? -->
+      <map code="0x15" name="uni0015"/><!-- ???? -->
+      <map code="0x16" name="uni0016"/><!-- ???? -->
+      <map code="0x17" name="uni0017"/><!-- ???? -->
+      <map code="0x18" name="uni0018"/><!-- ???? -->
+      <map code="0x19" name="uni0019"/><!-- ???? -->
+      <map code="0x1e" name="RS"/><!-- ???? -->
+      <map code="0x1f" name="US"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x22" name="quotedbl"/><!-- QUOTATION MARK -->
@@ -121,7 +121,7 @@
       <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
       <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
       <map code="0x7e" name="asciitilde"/><!-- TILDE -->
-      <map code="0x7f" name="DEL"/><!-- &lt;control> -->
+      <map code="0x7f" name="DEL"/><!-- ???? -->
       <map code="0xa0" name="nonbreakingspace"/><!-- NO-BREAK SPACE -->
       <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
       <map code="0xa2" name="cent"/><!-- CENT SIGN -->
@@ -429,9 +429,9 @@
       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
       <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
-      <map code="0xe000" name=".null"/><!-- Private Use -->
-      <map code="0xe001" name="nonmarkingreturn"/><!-- Private Use -->
-      <map code="0xf6c3" name="commaaccent"/><!-- Private Use -->
+      <map code="0xe000" name=".null"/><!-- ???? -->
+      <map code="0xe001" name="nonmarkingreturn"/><!-- ???? -->
+      <map code="0xf6c3" name="commaaccent"/><!-- ???? -->
       <map code="0xfb00" name="f_f"/><!-- LATIN SMALL LIGATURE FF -->
       <map code="0xfb01" name="f_i"/><!-- LATIN SMALL LIGATURE FI -->
       <map code="0xfb02" name="f_l"/><!-- LATIN SMALL LIGATURE FL -->
@@ -694,28 +694,28 @@
       <map code="0xff" name="caron"/>
     </cmap_format_6>
     <cmap_format_4 platformID="3" platEncID="1" language="0">
-      <map code="0x1" name="uni0001"/><!-- &lt;control> -->
-      <map code="0x2" name="uni0002"/><!-- &lt;control> -->
-      <map code="0x3" name="uni0003"/><!-- &lt;control> -->
-      <map code="0x4" name="uni0004"/><!-- &lt;control> -->
-      <map code="0x5" name="uni0005"/><!-- &lt;control> -->
-      <map code="0x6" name="uni0006"/><!-- &lt;control> -->
-      <map code="0x7" name="uni0007"/><!-- &lt;control> -->
-      <map code="0x8" name="uni0008"/><!-- &lt;control> -->
-      <map code="0x9" name="HT"/><!-- &lt;control> -->
-      <map code="0xa" name="LF"/><!-- &lt;control> -->
-      <map code="0x10" name="DLE"/><!-- &lt;control> -->
-      <map code="0x11" name="DC1"/><!-- &lt;control> -->
-      <map code="0x12" name="DC2"/><!-- &lt;control> -->
-      <map code="0x13" name="DC3"/><!-- &lt;control> -->
-      <map code="0x14" name="DC4"/><!-- &lt;control> -->
-      <map code="0x15" name="uni0015"/><!-- &lt;control> -->
-      <map code="0x16" name="uni0016"/><!-- &lt;control> -->
-      <map code="0x17" name="uni0017"/><!-- &lt;control> -->
-      <map code="0x18" name="uni0018"/><!-- &lt;control> -->
-      <map code="0x19" name="uni0019"/><!-- &lt;control> -->
-      <map code="0x1e" name="RS"/><!-- &lt;control> -->
-      <map code="0x1f" name="US"/><!-- &lt;control> -->
+      <map code="0x1" name="uni0001"/><!-- ???? -->
+      <map code="0x2" name="uni0002"/><!-- ???? -->
+      <map code="0x3" name="uni0003"/><!-- ???? -->
+      <map code="0x4" name="uni0004"/><!-- ???? -->
+      <map code="0x5" name="uni0005"/><!-- ???? -->
+      <map code="0x6" name="uni0006"/><!-- ???? -->
+      <map code="0x7" name="uni0007"/><!-- ???? -->
+      <map code="0x8" name="uni0008"/><!-- ???? -->
+      <map code="0x9" name="HT"/><!-- ???? -->
+      <map code="0xa" name="LF"/><!-- ???? -->
+      <map code="0x10" name="DLE"/><!-- ???? -->
+      <map code="0x11" name="DC1"/><!-- ???? -->
+      <map code="0x12" name="DC2"/><!-- ???? -->
+      <map code="0x13" name="DC3"/><!-- ???? -->
+      <map code="0x14" name="DC4"/><!-- ???? -->
+      <map code="0x15" name="uni0015"/><!-- ???? -->
+      <map code="0x16" name="uni0016"/><!-- ???? -->
+      <map code="0x17" name="uni0017"/><!-- ???? -->
+      <map code="0x18" name="uni0018"/><!-- ???? -->
+      <map code="0x19" name="uni0019"/><!-- ???? -->
+      <map code="0x1e" name="RS"/><!-- ???? -->
+      <map code="0x1f" name="US"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x22" name="quotedbl"/><!-- QUOTATION MARK -->
@@ -811,7 +811,7 @@
       <map code="0x7c" name="bar"/><!-- VERTICAL LINE -->
       <map code="0x7d" name="braceright"/><!-- RIGHT CURLY BRACKET -->
       <map code="0x7e" name="asciitilde"/><!-- TILDE -->
-      <map code="0x7f" name="DEL"/><!-- &lt;control> -->
+      <map code="0x7f" name="DEL"/><!-- ???? -->
       <map code="0xa0" name="nonbreakingspace"/><!-- NO-BREAK SPACE -->
       <map code="0xa1" name="exclamdown"/><!-- INVERTED EXCLAMATION MARK -->
       <map code="0xa2" name="cent"/><!-- CENT SIGN -->
@@ -1119,9 +1119,9 @@
       <map code="0x2264" name="lessequal"/><!-- LESS-THAN OR EQUAL TO -->
       <map code="0x2265" name="greaterequal"/><!-- GREATER-THAN OR EQUAL TO -->
       <map code="0x25ca" name="lozenge"/><!-- LOZENGE -->
-      <map code="0xe000" name=".null"/><!-- Private Use -->
-      <map code="0xe001" name="nonmarkingreturn"/><!-- Private Use -->
-      <map code="0xf6c3" name="commaaccent"/><!-- Private Use -->
+      <map code="0xe000" name=".null"/><!-- ???? -->
+      <map code="0xe001" name="nonmarkingreturn"/><!-- ???? -->
+      <map code="0xf6c3" name="commaaccent"/><!-- ???? -->
       <map code="0xfb00" name="f_f"/><!-- LATIN SMALL LIGATURE FF -->
       <map code="0xfb01" name="f_i"/><!-- LATIN SMALL LIGATURE FI -->
       <map code="0xfb02" name="f_l"/><!-- LATIN SMALL LIGATURE FL -->
