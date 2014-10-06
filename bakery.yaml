@@ -2,7 +2,7 @@ commit: HEAD
 fontcrunch: false
 license_file: 'OFL.txt'
 notes: ''
-process_files: [Merriweather-LightItalic.ttf.ttx, Merriweather-Light.ttf.ttx, Merriweather-Regular.ttf.ttx,
+process_files: [Merriweather-Light.ttf.ttx, Merriweather-Regular.ttf.ttx,
   Merriweather-HeavyItalic.ttf.ttx, Merriweather-BoldItalic.ttf.ttx, Merriweather-Italic.ttf.ttx,
   Merriweather-Bold.ttf.ttx, Merriweather-Black.ttf.ttx]
 pyftsubset: --notdef-outline --name-IDs=* --hinting
