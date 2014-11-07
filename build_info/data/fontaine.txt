@@ -1,0 +1,320 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Merriweather
+    Sub family: Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+    License: Copyright (c) 2010 by Eben Sorkin (eben@eyebytes.com), with Reserved Font Name Merriweather. ÊLicenced under the SIL Open Font License, Version 1.1, available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+    Version: Version 1.003
+    Vendor: Sorkin Type Co.
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin ( eben@eyebytes.com )
+    Designer url: sorkintype.com
+    Glyph count: 344
+    Character count: 321
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Merriweather
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+    License: Copyright (c) 2010 by Eben Sorkin (eben@eyebytes.com), with Reserved Font Name Merriweather. ÊLicenced under the SIL Open Font License, Version 1.1, available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+    Version: Version 1.003
+    Vendor: Sorkin Type Co.
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin ( eben@eyebytes.com )
+    Designer url: sorkintype.com
+    Glyph count: 345
+    Character count: 321
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Merriweather
+    Sub family: Heavy Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.001
+    Vendor: Eben Sorkin
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin
+    Designer url: sorkintype.com
+    Glyph count: 450
+    Character count: 432
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Merriweather
+    Sub family: Bold Italic
+    Style: italic
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.001
+    Vendor: Eben Sorkin
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin
+    Designer url: sorkintype.com
+    Glyph count: 451
+    Character count: 433
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Merriweather
+    Sub family: Italic
+    Style: italic
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'
+    License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.001
+    Vendor: Eben Sorkin
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin
+    Designer url: sorkintype.com
+    Glyph count: 451
+    Character count: 433
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 18
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Merriweather
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+    License: Copyright (c) 2010 by Eben Sorkin (eben@eyebytes.com), with Reserved Font Name Merriweather. ÊLicenced under the SIL Open Font License, Version 1.1, available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+    Version: Version 1.003
+    Vendor: Sorkin Type Co.
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin ( eben@eyebytes.com )
+    Designer url: sorkintype.com
+    Glyph count: 345
+    Character count: 321
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Merriweather
+    Sub family: Heavy
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: no
+    Copyright: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+    License: Copyright (c) 2010 by Eben Sorkin (eben@eyebytes.com), with Reserved Font Name Merriweather. ÊLicenced under the SIL Open Font License, Version 1.1, available with a FAQ at: http://scripts.sil.org/OFL
+    License url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+    Version: Version 1.003
+    Vendor: Sorkin Type Co.
+    Vendor url: sorkintype.com
+    Designer: Eben Sorkin ( eben@eyebytes.com )
+    Designer url: sorkintype.com
+    Glyph count: 345
+    Character count: 321
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 97
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: fragmentary
+          Percent coverage: 33
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 2
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23

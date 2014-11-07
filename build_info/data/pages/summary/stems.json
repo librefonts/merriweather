@@ -1,0 +1,44 @@
+[
+  {
+    "fontname": "Merriweather-Black", 
+    "style": "normal", 
+    "weight": 900, 
+    "stem": 354.0
+  }, 
+  {
+    "fontname": "Merriweather-Bold", 
+    "style": "normal", 
+    "weight": 700, 
+    "stem": 284.0
+  }, 
+  {
+    "fontname": "Merriweather-Italic", 
+    "style": "italic", 
+    "weight": 400, 
+    "stem": 200.0
+  }, 
+  {
+    "fontname": "Merriweather-BoldItalic", 
+    "style": "italic", 
+    "weight": 700, 
+    "stem": 275.0
+  }, 
+  {
+    "fontname": "Merriweather-BlackItalic", 
+    "style": "italic", 
+    "weight": 900, 
+    "stem": 346.0
+  }, 
+  {
+    "fontname": "Merriweather-Regular", 
+    "style": "normal", 
+    "weight": 400, 
+    "stem": 193.0
+  }, 
+  {
+    "fontname": "Merriweather-Light", 
+    "style": "normal", 
+    "weight": 250, 
+    "stem": 144.5
+  }
+]

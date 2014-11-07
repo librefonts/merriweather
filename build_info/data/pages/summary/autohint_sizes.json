@@ -1,0 +1,37 @@
+[
+  {
+    "origin": 43936, 
+    "fontname": "Merriweather-Light.ttf", 
+    "processed": 63564
+  }, 
+  {
+    "origin": 43644, 
+    "fontname": "Merriweather-Regular.ttf", 
+    "processed": 63984
+  }, 
+  {
+    "origin": 48596, 
+    "fontname": "Merriweather-BlackItalic.ttf", 
+    "processed": 51156
+  }, 
+  {
+    "origin": 56872, 
+    "fontname": "Merriweather-BoldItalic.ttf", 
+    "processed": 58412
+  }, 
+  {
+    "origin": 49264, 
+    "fontname": "Merriweather-Italic.ttf", 
+    "processed": 52840
+  }, 
+  {
+    "origin": 43736, 
+    "fontname": "Merriweather-Bold.ttf", 
+    "processed": 64212
+  }, 
+  {
+    "origin": 43808, 
+    "fontname": "Merriweather-Black.ttf", 
+    "processed": 64192
+  }
+]
